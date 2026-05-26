@@ -1,0 +1,501 @@
+assessment_id,child_id,assessment_date,assessment_type,primary_tool,ados2_module,ados2_social_affect_score,ados2_rrb_score,ados2_total,ados2_comparison,cognitive_tool,cognitive_verbal_pct,cognitive_nonverbal_pct,cognitive_composite_pct,adaptive_tool,adaptive_composite_pct,adaptive_communication_pct,adaptive_social_pct,adaptive_practical_pct,behavioral_tool,diagnosis_given,support_level,assessor_role,report_includes_recommendations
+ASS-CH-001,CH-001,2025-12-29,Autism Diagnostic Assessment,CARS-2,Module 1,19,7,26,high,DAS-II,10,15,4,ABAS-3,1,1,11,11,None,ASD with Language Impairment,Level 3,Clinical Psychologist,Yes
+ASS-CH-002,CH-002,2025-01-18,Autism Diagnostic Assessment,ADOS-2 + DAS-II + ABAS-3,Module 1,5,3,8,low,DAS-II,15,40,47,ABAS-3,22,24,26,19,None,ASD with ADHD features,Level 1,Developmental Pediatrician,Yes
+ASS-CH-003,CH-003,2025-06-15,Autism Diagnostic Assessment,CARS-2,Module 2,11,6,17,moderate,Mullen Scales,10,40,18,Vineland-3,12,12,19,21,None,ASD with Language Impairment,Level 2,Autism Assessment Team,Yes
+ASS-CH-004,CH-004,2025-01-14,Autism Diagnostic Assessment,CARS-2,Module 2,12,2,14,moderate,Bayley-4,14,35,4,Vineland-3,11,3,7,12,ASRS,ASD with Language Impairment,Level 2,Developmental Pediatrician,Partial
+ASS-CH-005,CH-005,2026-03-29,Autism Diagnostic Assessment,M-CHAT-R/F + ADOS-2,Module 1,8,5,13,moderate,Mullen Scales,23,37,11,ABAS-3,2,1,1,16,None,ASD (provisional),Level 2,Clinical Psychologist,Yes
+ASS-CH-006,CH-006,2025-01-03,Autism Diagnostic Assessment,ADOS-2 Module 2,Module 2,8,4,12,moderate,DAS-II,20,26,16,ABAS-3,10,13,10,16,ASRS,ASD Level 2,Level 2,Autism Assessment Team,Yes
+ASS-CH-007,CH-007,2025-06-27,Autism Diagnostic Assessment,CARS-2,Module 1,17,6,23,high,DAS-II,3,12,3,ABAS-3,3,1,1,4,None,ASD Level 3,Level 3,Clinical Psychologist,Yes
+ASS-CH-008,CH-008,2026-02-16,Autism Diagnostic Assessment,ADOS-2 Module 2,Module 1,6,2,8,low,Bayley-4,45,63,46,Vineland-3,28,38,28,31,ASRS,Autism Spectrum Disorder,Level 1,Clinical Psychologist,Yes
+ASS-CH-009,CH-009,2025-10-13,Autism Diagnostic Assessment,CARS-2 + Vineland-3,Module 2,11,1,12,moderate,DAS-II,2,11,9,ABAS-3,1,1,1,2,ASRS,ASD with Language Impairment,Level 2,Clinical Psychologist,Yes
+ASS-CH-010,CH-010,2026-02-14,Autism Diagnostic Assessment,ADOS-2 Module 1,Module 1,8,3,11,low,Bayley-4,30,52,11,ABAS-3,22,23,31,30,ASRS,ASD with ADHD features,Level 1,Clinical Psychologist,Yes
+ASS-CH-011,CH-011,2025-08-25,Autism Diagnostic Assessment,CARS-2 + Vineland-3,Module 1,8,2,10,moderate,Mullen Scales,1,6,10,Vineland-3,9,1,1,18,ASRS,ASD with Language Impairment,Level 2,Autism Assessment Team,Yes
+ASS-CH-012,CH-012,2025-03-16,Autism Diagnostic Assessment,ADOS-2 Module 2,Module 1,11,7,18,moderate,Mullen Scales,7,28,13,Vineland-3,8,10,13,6,CBCL,ASD with Language Impairment,Level 2,Developmental Pediatrician,Yes
+ASS-CH-013,CH-013,2025-10-08,Autism Diagnostic Assessment,ADOS-2 Module 1,Module 1,5,3,8,low,Bayley-4,44,48,20,ABAS-3,35,45,38,33,CBCL,Autism Spectrum Disorder,Level 1,Developmental Pediatrician,Partial
+ASS-CH-014,CH-014,2025-07-29,Autism Diagnostic Assessment,ADOS-2 Module 3,Module 3,6,2,8,moderate,WPPSI-IV,1,12,18,Vineland-3,11,14,15,26,None,ASD with Language Impairment,Level 2,Autism Assessment Team,Partial
+ASS-CH-015,CH-015,2025-04-30,Autism Diagnostic Assessment,ADOS-2 + DAS-II + ABAS-3,Module 1,6,2,8,low,Bayley-4,15,19,15,Vineland-3,30,30,23,25,ASRS,ASD with Anxiety,Level 1,Clinical Psychologist,Yes
+ASS-CH-016,CH-016,2025-12-16,Autism Diagnostic Assessment,ADOS-2 + DAS-II + ABAS-3,Module 3,5,3,8,moderate,DAS-II,9,33,10,ABAS-3,3,6,1,1,ASRS,ASD with Language Impairment,Level 2,Developmental Pediatrician,Yes
+ASS-CH-017,CH-017,2026-01-26,Autism Diagnostic Assessment,ADOS-2 + DAS-II + ABAS-3,Module 2,10,5,15,moderate,DAS-II,21,44,15,Vineland-3,14,19,10,21,None,ASD Level 2,Level 2,Developmental Pediatrician,Yes
+ASS-CH-018,CH-018,2025-05-12,Autism Diagnostic Assessment,CARS-2,Module 1,6,1,7,low,DAS-II,55,34,15,ABAS-3,23,22,29,18,None,ASD Level 1,Level 1,Developmental Pediatrician,Yes
+ASS-CH-019,CH-019,2025-02-07,Autism Diagnostic Assessment,CARS-2 + Vineland-3,Module 2,2,0,2,low,WPPSI-IV,36,70,14,Vineland-3,28,18,34,39,None,ASD with ADHD features,Level 1,Developmental Pediatrician,Yes
+ASS-CH-020,CH-020,2025-03-29,Autism Diagnostic Assessment,ADOS-2 Module 3,Module 3,10,5,15,moderate,WPPSI-IV,17,13,18,ABAS-3,4,1,1,19,None,ASD Level 2,Level 2,Autism Assessment Team,Partial
+ASS-CH-021,CH-021,2025-11-30,Autism Diagnostic Assessment,ADOS-2 Module 1,Module 1,18,5,23,high,WPPSI-IV,3,23,1,Vineland-3,2,1,1,1,Conners-3,ASD Level 3,Level 3,Autism Assessment Team,Yes
+ASS-CH-022,CH-022,2025-02-09,Autism Diagnostic Assessment,ADOS-2 + DAS-II + ABAS-3,Module 2,5,2,7,moderate,DAS-II,17,17,4,Vineland-3,7,6,1,7,Conners-3,ASD with Language Impairment,Level 2,Clinical Psychologist,Yes
+ASS-CH-023,CH-023,2026-04-14,Autism Diagnostic Assessment,M-CHAT-R/F + ADOS-2,Module 1,8,2,10,moderate,Bayley-4,21,32,8,Vineland-3,15,19,13,18,CBCL,Autism Spectrum Disorder,Level 2,Developmental Pediatrician,Yes
+ASS-CH-024,CH-024,2026-05-02,Autism Diagnostic Assessment,ADOS-2 Module 2,Module 3,16,5,21,high,Bayley-4,5,22,2,ABAS-3,4,4,11,17,CBCL,ASD with Language Impairment,Level 3,Autism Assessment Team,Partial
+ASS-CH-025,CH-025,2025-06-04,Autism Diagnostic Assessment,ADOS-2 Module 3,Module 3,4,1,5,moderate,DAS-II,24,9,18,ABAS-3,2,8,7,7,CBCL,ASD with Language Impairment,Level 2,Autism Assessment Team,Yes
+ASS-CH-026,CH-026,2025-12-07,Autism Diagnostic Assessment,CARS-2,Module 1,14,4,18,moderate,WPPSI-IV,5,23,9,Vineland-3,14,8,24,20,Conners-3,Autism Spectrum Disorder,Level 2,Clinical Psychologist,Yes
+ASS-CH-027,CH-027,2025-01-11,Autism Diagnostic Assessment,SCQ,Module 2,10,1,11,moderate,DAS-II,9,15,3,ABAS-3,4,4,1,7,CBCL,ASD with Language Impairment,Level 2,Developmental Pediatrician,Yes
+ASS-CH-028,CH-028,2025-06-20,Autism Diagnostic Assessment,ADOS-2 Module 2,Module 1,8,0,8,low,Mullen Scales,44,37,24,Vineland-3,22,22,23,35,Conners-3,ASD with Anxiety,Level 1,Clinical Psychologist,Partial
+ASS-CH-029,CH-029,2026-01-05,Autism Diagnostic Assessment,CARS-2 + Vineland-3,Module 1,7,2,9,low,Mullen Scales,21,46,45,Vineland-3,8,5,12,13,ASRS,ASD Level 1,Level 1,Developmental Pediatrician,Yes
+ASS-CH-030,CH-030,2025-06-05,Autism Diagnostic Assessment,ADOS-2 Module 2,Module 2,16,7,23,high,DAS-II,2,8,8,ABAS-3,2,11,7,16,None,ASD with Language Impairment,Level 3,Clinical Psychologist,Yes
+ASS-CH-031,CH-031,2026-02-16,Autism Diagnostic Assessment,CARS-2 + Vineland-3,Module 1,7,2,9,low,Bayley-4,26,43,49,Vineland-3,18,17,18,25,Conners-3,ASD with Anxiety,Level 1,Autism Assessment Team,Yes
+ASS-CH-032,CH-032,2026-01-24,Autism Diagnostic Assessment,CARS-2 + Vineland-3,Module 1,8,5,13,moderate,Mullen Scales,10,7,8,ABAS-3,5,11,7,20,None,ASD Level 2,Level 2,Autism Assessment Team,Yes
+ASS-CH-033,CH-033,2025-11-21,Autism Diagnostic Assessment,SCQ,Module 2,11,5,16,moderate,WPPSI-IV,12,20,19,Vineland-3,10,6,14,21,ASRS,ASD (provisional),Level 2,Clinical Psychologist,Partial
+ASS-CH-034,CH-034,2026-01-14,Autism Diagnostic Assessment,CARS-2,Module 1,4,2,6,low,WPPSI-IV,10,21,14,Vineland-3,29,28,35,41,Conners-3,ASD Level 1,Level 1,Autism Assessment Team,Yes
+ASS-CH-035,CH-035,2025-05-14,Autism Diagnostic Assessment,ADOS-2 Module 2,Module 3,15,3,18,high,Mullen Scales,8,16,6,Vineland-3,1,1,11,14,None,ASD with Intellectual Disability,Level 3,Clinical Psychologist,Yes
+ASS-CH-036,CH-036,2025-02-05,Autism Diagnostic Assessment,ADOS-2 + DAS-II + ABAS-3,Module 2,18,7,25,high,DAS-II,5,8,3,Vineland-3,5,8,4,18,ASRS,ASD with Intellectual Disability,Level 3,Clinical Psychologist,Yes
+ASS-CH-037,CH-037,2025-08-01,Autism Diagnostic Assessment,ADOS-2 Module 1,Module 1,12,5,17,moderate,Mullen Scales,15,43,14,ABAS-3,11,6,7,13,CBCL,ASD (provisional),Level 2,Autism Assessment Team,Yes
+ASS-CH-038,CH-038,2025-02-26,Autism Diagnostic Assessment,ADOS-2 + DAS-II + ABAS-3,Module 2,3,2,5,low,Mullen Scales,10,28,23,Vineland-3,6,12,1,18,None,ASD with Anxiety,Level 1,Clinical Psychologist,Yes
+ASS-CH-039,CH-039,2025-12-21,Autism Diagnostic Assessment,M-CHAT-R/F,Module 1,18,8,26,high,DAS-II,1,25,5,Vineland-3,4,2,14,15,Conners-3,ASD Level 3,Level 3,Clinical Psychologist,Yes
+ASS-CH-040,CH-040,2025-03-03,Autism Diagnostic Assessment,ADOS-2 + DAS-II + ABAS-3,Module 1,6,4,10,low,WPPSI-IV,19,28,30,Vineland-3,10,5,8,16,CBCL,ASD with Anxiety,Level 1,Clinical Psychologist,Yes
+ASS-CH-041,CH-041,2025-08-12,Autism Diagnostic Assessment,ADOS-2 Module 2,Module 2,11,4,15,high,DAS-II,9,9,2,ABAS-3,4,11,11,13,None,ASD Level 3,Level 3,Developmental Pediatrician,Yes
+ASS-CH-042,CH-042,2025-02-11,Autism Diagnostic Assessment,ADOS-2 Module 2,Module 2,9,1,10,moderate,Mullen Scales,9,48,15,ABAS-3,2,1,1,6,Conners-3,ASD Level 2,Level 2,Clinical Psychologist,Yes
+ASS-CH-043,CH-043,2025-03-12,Autism Diagnostic Assessment,ADOS-2 Module 2,Module 2,3,3,6,low,DAS-II,53,46,37,Vineland-3,6,2,1,2,Conners-3,Autism Spectrum Disorder,Level 1,Clinical Psychologist,Partial
+ASS-CH-044,CH-044,2025-03-21,Autism Diagnostic Assessment,ADOS-2 Module 3,Module 2,12,6,18,high,Bayley-4,1,4,1,Vineland-3,5,1,13,7,Conners-3,ASD with Intellectual Disability,Level 3,Developmental Pediatrician,Yes
+ASS-CH-045,CH-045,2026-01-08,Autism Diagnostic Assessment,ADOS-2 + DAS-II + ABAS-3,Module 3,9,5,14,moderate,DAS-II,3,17,10,Vineland-3,3,11,12,9,None,ASD Level 2,Level 2,Developmental Pediatrician,Yes
+ASS-CH-046,CH-046,2026-03-28,Autism Diagnostic Assessment,ADOS-2 Module 2,Module 2,7,2,9,moderate,Bayley-4,11,41,12,ABAS-3,4,8,1,11,None,Autism Spectrum Disorder,Level 2,Clinical Psychologist,Yes
+ASS-CH-047,CH-047,2025-07-14,Autism Diagnostic Assessment,M-CHAT-R/F,Module 1,11,4,15,high,DAS-II,1,21,6,ABAS-3,2,1,11,3,Conners-3,ASD Level 3,Level 3,Developmental Pediatrician,Yes
+ASS-CH-048,CH-048,2025-05-08,Autism Diagnostic Assessment,CARS-2,Module 1,17,4,21,high,DAS-II,2,10,7,ABAS-3,2,1,7,1,CBCL,ASD with Language Impairment,Level 3,Clinical Psychologist,Yes
+ASS-CH-049,CH-049,2025-03-23,Autism Diagnostic Assessment,ADOS-2 Module 2,Module 3,6,4,10,moderate,WPPSI-IV,15,7,18,Vineland-3,12,5,20,24,None,Autism Spectrum Disorder,Level 2,Clinical Psychologist,Yes
+ASS-CH-050,CH-050,2025-09-25,Autism Diagnostic Assessment,M-CHAT-R/F,Module 1,20,8,28,high,WPPSI-IV,10,4,5,ABAS-3,4,14,8,3,CBCL,ASD Level 3,Level 3,Autism Assessment Team,Yes
+ASS-CH-051,CH-051,2025-08-20,Autism Diagnostic Assessment,ADOS-2 Module 2,Module 2,3,1,4,low,WPPSI-IV,57,41,35,Vineland-3,30,39,30,31,Conners-3,ASD with Anxiety,Level 1,Developmental Pediatrician,Yes
+ASS-CH-052,CH-052,2026-04-08,Autism Diagnostic Assessment,ADOS-2 Module 1,Module 1,12,1,13,moderate,DAS-II,21,12,19,Vineland-3,9,9,7,15,Conners-3,Autism Spectrum Disorder,Level 2,Clinical Psychologist,Yes
+ASS-CH-053,CH-053,2025-10-08,Autism Diagnostic Assessment,SCQ,Module 3,5,5,10,moderate,Mullen Scales,13,45,5,ABAS-3,3,1,1,16,CBCL,ASD Level 2,Level 2,Autism Assessment Team,Yes
+ASS-CH-054,CH-054,2025-01-16,Autism Diagnostic Assessment,ADOS-2 Module 2,Module 3,2,3,5,low,Bayley-4,14,61,40,ABAS-3,7,4,13,6,Conners-3,ASD with Anxiety,Level 1,Autism Assessment Team,Yes
+ASS-CH-055,CH-055,2025-12-08,Autism Diagnostic Assessment,ADOS-2 Module 1,Module 1,11,6,17,high,WPPSI-IV,2,3,5,ABAS-3,5,8,7,9,CBCL,ASD Level 3,Level 3,Clinical Psychologist,Yes
+ASS-CH-056,CH-056,2025-10-22,Autism Diagnostic Assessment,ADOS-2 Module 3,Module 3,5,3,8,low,Mullen Scales,41,40,12,ABAS-3,14,12,21,19,ASRS,ASD with Anxiety,Level 1,Autism Assessment Team,Yes
+ASS-CH-057,CH-057,2025-05-21,Autism Diagnostic Assessment,ADOS-2 + DAS-II + ABAS-3,Module 2,16,3,19,high,DAS-II,4,20,4,Vineland-3,4,3,3,3,Conners-3,ASD with Language Impairment,Level 3,Developmental Pediatrician,Yes
+ASS-CH-058,CH-058,2025-12-27,Autism Diagnostic Assessment,ADOS-2 Module 1,Module 1,15,7,22,high,Mullen Scales,10,10,1,Vineland-3,2,4,1,14,Conners-3,ASD with Intellectual Disability,Level 3,Clinical Psychologist,Yes
+ASS-CH-059,CH-059,2025-08-11,Autism Diagnostic Assessment,ADOS-2 Module 1,Module 1,5,4,9,low,DAS-II,31,30,49,ABAS-3,20,10,14,29,ASRS,ASD with Anxiety,Level 1,Developmental Pediatrician,Yes
+ASS-CH-060,CH-060,2025-06-16,Autism Diagnostic Assessment,CARS-2 + Vineland-3,Module 2,11,3,14,high,Bayley-4,7,24,3,Vineland-3,3,1,1,10,ASRS,ASD with Language Impairment,Level 3,Clinical Psychologist,Partial
+ASS-CH-061,CH-061,2025-11-05,Autism Diagnostic Assessment,CARS-2,Module 1,3,2,5,low,WPPSI-IV,21,19,44,ABAS-3,34,31,42,43,None,ASD with Anxiety,Level 1,Clinical Psychologist,Partial
+ASS-CH-062,CH-062,2026-01-14,Autism Diagnostic Assessment,M-CHAT-R/F + ADOS-2,Module 1,3,4,7,low,WPPSI-IV,21,18,41,Vineland-3,14,21,13,23,ASRS,ASD with ADHD features,Level 1,Autism Assessment Team,Partial
+ASS-CH-063,CH-063,2025-03-08,Autism Diagnostic Assessment,SCQ,Module 3,3,2,5,low,DAS-II,31,62,12,Vineland-3,5,1,1,13,CBCL,ASD with Anxiety,Level 1,Developmental Pediatrician,Yes
+ASS-CH-064,CH-064,2025-05-22,Autism Diagnostic Assessment,CARS-2 + Vineland-3,Module 2,9,3,12,high,DAS-II,1,4,6,Vineland-3,3,1,6,1,None,ASD Level 3,Level 3,Clinical Psychologist,Yes
+ASS-CH-065,CH-065,2025-01-30,Autism Diagnostic Assessment,ADOS-2 Module 2,Module 3,13,4,17,high,WPPSI-IV,2,10,3,Vineland-3,2,1,3,11,ASRS,ASD with Intellectual Disability,Level 3,Developmental Pediatrician,Yes
+ASS-CH-066,CH-066,2026-03-22,Autism Diagnostic Assessment,CARS-2 + Vineland-3,Module 2,10,2,12,moderate,Bayley-4,18,22,12,Vineland-3,13,7,14,19,CBCL,ASD Level 2,Level 2,Clinical Psychologist,Yes
+ASS-CH-067,CH-067,2025-01-25,Autism Diagnostic Assessment,ADOS-2 Module 1,Module 2,8,6,14,moderate,Bayley-4,1,36,10,Vineland-3,8,1,5,3,Conners-3,ASD with Language Impairment,Level 2,Developmental Pediatrician,Yes
+ASS-CH-068,CH-068,2026-05-11,Autism Diagnostic Assessment,ADOS-2 Module 1,Module 1,12,7,19,moderate,Bayley-4,4,37,3,ABAS-3,12,6,19,17,ASRS,ASD with Language Impairment,Level 2,Autism Assessment Team,Yes
+ASS-CH-069,CH-069,2025-01-26,Autism Diagnostic Assessment,ADOS-2 + DAS-II + ABAS-3,Module 3,5,3,8,low,Mullen Scales,44,19,41,Vineland-3,17,23,18,32,None,ASD with Anxiety,Level 1,Autism Assessment Team,Yes
+ASS-CH-070,CH-070,2025-02-12,Autism Diagnostic Assessment,CARS-2,Module 2,9,7,16,high,Bayley-4,9,24,8,Vineland-3,5,1,10,1,Conners-3,ASD with Intellectual Disability,Level 3,Autism Assessment Team,Yes
+ASS-CH-071,CH-071,2026-01-10,Autism Diagnostic Assessment,ADOS-2 Module 1,Module 1,11,5,16,moderate,WPPSI-IV,2,35,17,ABAS-3,8,17,18,12,CBCL,Autism Spectrum Disorder,Level 2,Developmental Pediatrician,Partial
+ASS-CH-072,CH-072,2025-02-20,Autism Diagnostic Assessment,ADOS-2 Module 2,Module 3,5,1,6,low,WPPSI-IV,41,55,42,ABAS-3,19,19,24,33,Conners-3,ASD with ADHD features,Level 1,Clinical Psychologist,Yes
+ASS-CH-073,CH-073,2025-04-21,Autism Diagnostic Assessment,CARS-2,Module 1,8,5,13,moderate,Bayley-4,6,24,8,Vineland-3,14,10,24,27,Conners-3,ASD with Language Impairment,Level 2,Autism Assessment Team,Yes
+ASS-CH-074,CH-074,2025-06-23,Autism Diagnostic Assessment,ADOS-2 Module 1,Module 1,13,4,17,high,Bayley-4,5,21,3,Vineland-3,4,4,14,11,Conners-3,ASD with Language Impairment,Level 3,Developmental Pediatrician,Yes
+ASS-CH-075,CH-075,2025-10-22,Autism Diagnostic Assessment,M-CHAT-R/F + ADOS-2,Module 1,6,7,13,moderate,DAS-II,21,7,16,Vineland-3,2,2,7,1,None,Autism Spectrum Disorder,Level 2,Developmental Pediatrician,Partial
+ASS-CH-076,CH-076,2025-03-26,Autism Diagnostic Assessment,ADOS-2 + DAS-II + ABAS-3,Module 2,11,1,12,moderate,Mullen Scales,20,13,6,Vineland-3,13,16,7,20,ASRS,Autism Spectrum Disorder,Level 2,Developmental Pediatrician,Yes
+ASS-CH-077,CH-077,2026-03-11,Autism Diagnostic Assessment,CARS-2,Module 3,11,6,17,high,WPPSI-IV,4,1,4,Vineland-3,4,3,9,3,CBCL,ASD Level 3,Level 3,Clinical Psychologist,Partial
+ASS-CH-078,CH-078,2026-03-26,Autism Diagnostic Assessment,CARS-2 + Vineland-3,Module 2,16,4,20,high,WPPSI-IV,1,17,1,Vineland-3,5,1,8,10,CBCL,ASD Level 3,Level 3,Developmental Pediatrician,Yes
+ASS-CH-079,CH-079,2025-06-12,Autism Diagnostic Assessment,ADOS-2 Module 2,Module 2,7,1,8,moderate,DAS-II,13,46,12,ABAS-3,8,14,6,11,None,ASD with Language Impairment,Level 2,Developmental Pediatrician,Yes
+ASS-CH-080,CH-080,2026-02-22,Autism Diagnostic Assessment,ADOS-2 Module 1,Module 2,10,4,14,moderate,DAS-II,1,29,3,ABAS-3,2,1,12,4,Conners-3,ASD (provisional),Level 2,Clinical Psychologist,Yes
+ASS-CH-081,CH-081,2025-08-01,Autism Diagnostic Assessment,ADOS-2 + DAS-II + ABAS-3,Module 1,12,1,13,moderate,WPPSI-IV,6,32,19,Vineland-3,4,4,9,9,None,ASD (provisional),Level 2,Developmental Pediatrician,Partial
+ASS-CH-082,CH-082,2025-06-10,Autism Diagnostic Assessment,M-CHAT-R/F + ADOS-2,Module 1,2,3,5,low,Bayley-4,44,26,13,ABAS-3,15,14,10,24,ASRS,ASD Level 1,Level 1,Clinical Psychologist,Partial
+ASS-CH-083,CH-083,2025-02-13,Autism Diagnostic Assessment,ADOS-2 Module 2,Module 1,16,6,22,high,Mullen Scales,7,11,2,ABAS-3,4,11,14,18,ASRS,ASD with Intellectual Disability,Level 3,Clinical Psychologist,Partial
+ASS-CH-084,CH-084,2025-03-24,Autism Diagnostic Assessment,CARS-2 + Vineland-3,Module 1,7,4,11,moderate,DAS-II,9,39,20,Vineland-3,13,5,22,13,CBCL,ASD Level 2,Level 2,Developmental Pediatrician,Partial
+ASS-CH-085,CH-085,2025-09-12,Autism Diagnostic Assessment,M-CHAT-R/F + ADOS-2,Module 1,20,6,26,high,Mullen Scales,6,2,5,Vineland-3,2,1,3,7,CBCL,ASD with Intellectual Disability,Level 3,Developmental Pediatrician,Yes
+ASS-CH-086,CH-086,2025-07-30,Autism Diagnostic Assessment,CARS-2,Module 3,4,3,7,moderate,WPPSI-IV,25,43,20,ABAS-3,8,1,3,23,Conners-3,ASD with Language Impairment,Level 2,Clinical Psychologist,Partial
+ASS-CH-087,CH-087,2026-04-26,Autism Diagnostic Assessment,ADOS-2 + DAS-II + ABAS-3,Module 1,3,1,4,low,WPPSI-IV,20,56,31,Vineland-3,34,30,39,46,None,ASD with ADHD features,Level 1,Developmental Pediatrician,Partial
+ASS-CH-088,CH-088,2025-02-21,Autism Diagnostic Assessment,CARS-2 + Vineland-3,Module 1,2,0,2,low,Bayley-4,26,47,17,ABAS-3,6,5,1,19,CBCL,ASD Level 1,Level 1,Clinical Psychologist,Yes
+ASS-CH-089,CH-089,2026-05-01,Autism Diagnostic Assessment,ADOS-2 Module 2,Module 2,5,5,10,moderate,WPPSI-IV,24,18,3,ABAS-3,7,5,2,10,None,ASD Level 2,Level 2,Developmental Pediatrician,Yes
+ASS-CH-090,CH-090,2025-11-08,Autism Diagnostic Assessment,ADOS-2 Module 1,Module 2,1,1,2,low,Bayley-4,15,26,50,Vineland-3,6,1,1,7,CBCL,Autism Spectrum Disorder,Level 1,Developmental Pediatrician,Yes
+ASS-CH-091,CH-091,2025-04-11,Autism Diagnostic Assessment,ADOS-2 Module 2,Module 1,2,2,4,low,Bayley-4,55,60,34,Vineland-3,26,23,26,25,Conners-3,Autism Spectrum Disorder,Level 1,Autism Assessment Team,Yes
+ASS-CH-092,CH-092,2026-03-08,Autism Diagnostic Assessment,ADOS-2 Module 2,Module 2,8,3,11,moderate,Mullen Scales,16,35,6,Vineland-3,2,9,9,8,None,Autism Spectrum Disorder,Level 2,Clinical Psychologist,Yes
+ASS-CH-093,CH-093,2025-01-05,Autism Diagnostic Assessment,ADOS-2 Module 2,Module 2,11,4,15,moderate,Mullen Scales,6,11,15,ABAS-3,14,8,9,13,ASRS,ASD with Language Impairment,Level 2,Autism Assessment Team,Yes
+ASS-CH-094,CH-094,2025-12-12,Autism Diagnostic Assessment,ADOS-2 + DAS-II + ABAS-3,Module 2,18,5,23,high,Bayley-4,10,3,2,ABAS-3,5,14,1,17,Conners-3,ASD Level 3,Level 3,Developmental Pediatrician,Partial
+ASS-CH-095,CH-095,2025-06-17,Autism Diagnostic Assessment,ADOS-2 Module 1,Module 1,19,6,25,high,Bayley-4,3,1,4,Vineland-3,3,1,1,1,None,ASD with Intellectual Disability,Level 3,Autism Assessment Team,Yes
+ASS-CH-096,CH-096,2025-01-10,Autism Diagnostic Assessment,M-CHAT-R/F,Module 1,4,1,5,low,WPPSI-IV,41,53,16,ABAS-3,5,5,13,17,ASRS,Autism Spectrum Disorder,Level 1,Autism Assessment Team,Yes
+ASS-CH-097,CH-097,2025-10-27,Autism Diagnostic Assessment,CARS-2 + Vineland-3,Module 2,6,2,8,low,DAS-II,12,55,45,ABAS-3,8,16,7,6,CBCL,ASD with ADHD features,Level 1,Autism Assessment Team,Yes
+ASS-CH-098,CH-098,2025-09-14,Autism Diagnostic Assessment,ADOS-2 Module 1,Module 1,13,2,15,moderate,WPPSI-IV,23,25,17,ABAS-3,6,1,5,17,ASRS,ASD (provisional),Level 2,Autism Assessment Team,Partial
+ASS-CH-099,CH-099,2026-01-27,Autism Diagnostic Assessment,ADOS-2 Module 1,Module 1,6,2,8,moderate,Mullen Scales,24,22,3,ABAS-3,8,1,1,15,None,Autism Spectrum Disorder,Level 2,Developmental Pediatrician,Yes
+ASS-CH-100,CH-100,2026-04-20,Autism Diagnostic Assessment,ADOS-2 Module 2,Module 1,9,1,10,moderate,Bayley-4,12,11,15,Vineland-3,13,12,9,11,Conners-3,Autism Spectrum Disorder,Level 2,Developmental Pediatrician,Yes
+ASS-CH-101,CH-101,2026-01-26,Autism Diagnostic Assessment,ADOS-2 Module 2,Module 2,10,3,13,moderate,Bayley-4,13,7,8,ABAS-3,13,23,21,9,ASRS,ASD (provisional),Level 2,Developmental Pediatrician,Yes
+ASS-CH-102,CH-102,2026-03-10,Autism Diagnostic Assessment,ADOS-2 Module 3,Module 3,5,2,7,low,DAS-II,22,53,31,Vineland-3,23,31,23,27,CBCL,ASD Level 1,Level 1,Clinical Psychologist,Yes
+ASS-CH-103,CH-103,2026-01-18,Autism Diagnostic Assessment,CARS-2,Module 3,5,3,8,moderate,DAS-II,9,31,5,Vineland-3,4,5,14,1,ASRS,ASD Level 2,Level 2,Developmental Pediatrician,Yes
+ASS-CH-104,CH-104,2025-04-22,Autism Diagnostic Assessment,ADOS-2 + DAS-II + ABAS-3,Module 2,6,3,9,low,DAS-II,29,61,47,Vineland-3,27,34,28,34,CBCL,ASD with Anxiety,Level 1,Developmental Pediatrician,Yes
+ASS-CH-105,CH-105,2025-05-01,Autism Diagnostic Assessment,ADOS-2 + DAS-II + ABAS-3,Module 3,6,4,10,moderate,Bayley-4,23,38,5,ABAS-3,11,16,21,25,ASRS,ASD with Language Impairment,Level 2,Developmental Pediatrician,Yes
+ASS-CH-106,CH-106,2026-01-26,Autism Diagnostic Assessment,M-CHAT-R/F + ADOS-2,Module 1,12,4,16,high,DAS-II,9,1,5,Vineland-3,1,9,1,10,None,ASD with Intellectual Disability,Level 3,Clinical Psychologist,Yes
+ASS-CH-107,CH-107,2025-09-22,Autism Diagnostic Assessment,M-CHAT-R/F,Module 1,15,4,19,high,Mullen Scales,6,11,5,Vineland-3,3,5,1,1,ASRS,ASD with Intellectual Disability,Level 3,Autism Assessment Team,Yes
+ASS-CH-108,CH-108,2025-05-19,Autism Diagnostic Assessment,ADOS-2 + DAS-II + ABAS-3,Module 1,8,7,15,moderate,Bayley-4,13,35,5,Vineland-3,9,7,17,10,Conners-3,Autism Spectrum Disorder,Level 2,Autism Assessment Team,Partial
+ASS-CH-109,CH-109,2026-04-29,Autism Diagnostic Assessment,ADOS-2 + DAS-II + ABAS-3,Module 2,10,5,15,moderate,Bayley-4,10,48,14,Vineland-3,2,10,1,1,ASRS,ASD (provisional),Level 2,Clinical Psychologist,Yes
+ASS-CH-110,CH-110,2026-01-26,Autism Diagnostic Assessment,ADOS-2 + DAS-II + ABAS-3,Module 2,14,6,20,high,Bayley-4,5,8,1,ABAS-3,2,8,9,1,CBCL,ASD Level 3,Level 3,Autism Assessment Team,Yes
+ASS-CH-111,CH-111,2025-05-13,Autism Diagnostic Assessment,ADOS-2 Module 2,Module 3,14,5,19,high,DAS-II,3,24,8,ABAS-3,1,1,7,12,Conners-3,ASD Level 3,Level 3,Developmental Pediatrician,Yes
+ASS-CH-112,CH-112,2025-07-22,Autism Diagnostic Assessment,ADOS-2 Module 2,Module 2,6,3,9,low,Bayley-4,45,27,17,Vineland-3,13,23,22,18,ASRS,ASD with Anxiety,Level 1,Clinical Psychologist,Partial
+ASS-CH-113,CH-113,2025-10-18,Autism Diagnostic Assessment,ADOS-2 Module 2,Module 1,13,5,18,moderate,Mullen Scales,6,32,7,Vineland-3,8,6,9,19,Conners-3,ASD (provisional),Level 2,Developmental Pediatrician,Yes
+ASS-CH-114,CH-114,2025-11-25,Autism Diagnostic Assessment,ADOS-2 Module 2,Module 2,3,2,5,low,Mullen Scales,42,59,37,ABAS-3,5,15,2,2,None,ASD with ADHD features,Level 1,Autism Assessment Team,Yes
+ASS-CH-115,CH-115,2025-06-29,Autism Diagnostic Assessment,M-CHAT-R/F,Module 1,7,0,7,low,DAS-II,19,52,27,Vineland-3,11,17,2,8,Conners-3,ASD with ADHD features,Level 1,Clinical Psychologist,Partial
+ASS-CH-116,CH-116,2025-04-07,Autism Diagnostic Assessment,M-CHAT-R/F,Module 1,8,1,9,low,Mullen Scales,11,31,37,ABAS-3,29,27,29,28,None,ASD with Anxiety,Level 1,Developmental Pediatrician,Yes
+ASS-CH-117,CH-117,2025-10-05,Autism Diagnostic Assessment,ADOS-2 + DAS-II + ABAS-3,Module 2,8,2,10,moderate,WPPSI-IV,1,33,15,ABAS-3,6,1,1,16,None,Autism Spectrum Disorder,Level 2,Developmental Pediatrician,Yes
+ASS-CH-118,CH-118,2025-09-24,Autism Diagnostic Assessment,M-CHAT-R/F,Module 1,4,4,8,low,DAS-II,17,22,31,ABAS-3,6,1,1,19,Conners-3,ASD with Anxiety,Level 1,Autism Assessment Team,Yes
+ASS-CH-119,CH-119,2026-02-24,Autism Diagnostic Assessment,ADOS-2 Module 2,Module 1,20,8,28,high,Mullen Scales,5,9,5,ABAS-3,4,13,13,1,None,ASD Level 3,Level 3,Autism Assessment Team,Yes
+ASS-CH-120,CH-120,2025-09-02,Autism Diagnostic Assessment,CARS-2,Module 3,7,4,11,moderate,Bayley-4,18,34,14,Vineland-3,12,10,20,18,None,ASD Level 2,Level 2,Clinical Psychologist,Yes
+ASS-CH-121,CH-121,2025-01-21,Autism Diagnostic Assessment,CARS-2 + Vineland-3,Module 2,4,3,7,low,WPPSI-IV,59,29,27,ABAS-3,35,42,35,35,CBCL,ASD with Anxiety,Level 1,Autism Assessment Team,Partial
+ASS-CH-122,CH-122,2025-06-05,Autism Diagnostic Assessment,ADOS-2 Module 1,Module 1,11,6,17,high,Bayley-4,10,10,2,Vineland-3,4,1,8,15,CBCL,ASD Level 3,Level 3,Clinical Psychologist,Partial
+ASS-CH-123,CH-123,2025-12-06,Autism Diagnostic Assessment,CARS-2,Module 2,9,1,10,moderate,WPPSI-IV,11,27,8,ABAS-3,12,11,4,8,None,ASD (provisional),Level 2,Developmental Pediatrician,Yes
+ASS-CH-124,CH-124,2025-10-16,Autism Diagnostic Assessment,ADOS-2 + DAS-II + ABAS-3,Module 2,6,1,7,moderate,DAS-II,17,39,6,Vineland-3,9,4,8,15,Conners-3,ASD with Language Impairment,Level 2,Developmental Pediatrician,Yes
+ASS-CH-125,CH-125,2026-01-25,Autism Diagnostic Assessment,ADOS-2 + DAS-II + ABAS-3,Module 3,4,2,6,low,DAS-II,20,32,47,Vineland-3,7,1,7,19,ASRS,ASD with Anxiety,Level 1,Developmental Pediatrician,Yes
+ASS-CH-126,CH-126,2026-04-02,Autism Diagnostic Assessment,ADOS-2 + DAS-II + ABAS-3,Module 2,14,5,19,high,Bayley-4,7,6,1,Vineland-3,4,1,1,16,ASRS,ASD with Intellectual Disability,Level 3,Developmental Pediatrician,Partial
+ASS-CH-127,CH-127,2025-03-30,Autism Diagnostic Assessment,SCQ,Module 3,2,3,5,low,DAS-II,24,70,25,Vineland-3,22,12,28,24,ASRS,ASD with ADHD features,Level 1,Clinical Psychologist,Yes
+ASS-CH-128,CH-128,2025-03-04,Autism Diagnostic Assessment,CARS-2 + Vineland-3,Module 1,6,3,9,low,Bayley-4,25,52,19,ABAS-3,28,23,36,27,ASRS,ASD with ADHD features,Level 1,Autism Assessment Team,Yes
+ASS-CH-129,CH-129,2026-02-24,Autism Diagnostic Assessment,CARS-2 + Vineland-3,Module 2,9,4,13,high,Mullen Scales,8,10,5,ABAS-3,3,8,3,1,CBCL,ASD Level 3,Level 3,Clinical Psychologist,Partial
+ASS-CH-130,CH-130,2025-02-28,Autism Diagnostic Assessment,ADOS-2 + DAS-II + ABAS-3,Module 3,4,1,5,low,WPPSI-IV,22,71,39,ABAS-3,16,11,22,17,ASRS,ASD with Anxiety,Level 1,Autism Assessment Team,Yes
+ASS-CH-131,CH-131,2025-09-15,Autism Diagnostic Assessment,ADOS-2 + DAS-II + ABAS-3,Module 2,17,4,21,high,Mullen Scales,8,17,3,Vineland-3,3,6,1,12,None,ASD with Intellectual Disability,Level 3,Clinical Psychologist,Yes
+ASS-CH-132,CH-132,2025-04-13,Autism Diagnostic Assessment,M-CHAT-R/F,Module 1,13,6,19,moderate,WPPSI-IV,3,24,5,Vineland-3,12,17,17,12,Conners-3,Autism Spectrum Disorder,Level 2,Developmental Pediatrician,Partial
+ASS-CH-133,CH-133,2025-05-07,Autism Diagnostic Assessment,CARS-2,Module 1,19,8,27,high,Mullen Scales,3,18,6,ABAS-3,4,6,3,13,CBCL,ASD with Intellectual Disability,Level 3,Developmental Pediatrician,Yes
+ASS-CH-134,CH-134,2026-03-16,Autism Diagnostic Assessment,CARS-2,Module 3,6,2,8,low,Mullen Scales,17,37,14,Vineland-3,23,15,32,21,Conners-3,ASD with Anxiety,Level 1,Developmental Pediatrician,Partial
+ASS-CH-135,CH-135,2025-07-11,Autism Diagnostic Assessment,M-CHAT-R/F + ADOS-2,Module 1,11,2,13,moderate,Mullen Scales,10,18,5,ABAS-3,3,12,1,9,CBCL,ASD with Language Impairment,Level 2,Developmental Pediatrician,Yes
+ASS-CH-136,CH-136,2025-11-17,Autism Diagnostic Assessment,CARS-2 + Vineland-3,Module 1,8,0,8,low,WPPSI-IV,14,73,18,ABAS-3,31,29,39,46,None,ASD with Anxiety,Level 1,Autism Assessment Team,Partial
+ASS-CH-137,CH-137,2025-07-07,Autism Diagnostic Assessment,ADOS-2 Module 1,Module 2,6,6,12,moderate,Mullen Scales,6,34,20,Vineland-3,4,7,1,11,Conners-3,Autism Spectrum Disorder,Level 2,Developmental Pediatrician,Yes
+ASS-CH-138,CH-138,2025-03-10,Autism Diagnostic Assessment,M-CHAT-R/F + ADOS-2,Module 1,3,1,4,low,Mullen Scales,18,36,40,ABAS-3,6,13,1,9,Conners-3,Autism Spectrum Disorder,Level 1,Clinical Psychologist,Yes
+ASS-CH-139,CH-139,2025-10-02,Autism Diagnostic Assessment,ADOS-2 Module 1,Module 1,5,2,7,low,Bayley-4,37,48,42,ABAS-3,33,24,32,28,None,ASD with Anxiety,Level 1,Clinical Psychologist,Partial
+ASS-CH-140,CH-140,2025-01-28,Autism Diagnostic Assessment,ADOS-2 Module 1,Module 2,6,4,10,moderate,Bayley-4,11,6,16,ABAS-3,6,16,6,6,CBCL,ASD with Language Impairment,Level 2,Autism Assessment Team,Yes
+ASS-CH-141,CH-141,2025-10-04,Autism Diagnostic Assessment,CARS-2,Module 1,4,3,7,low,Mullen Scales,22,44,37,ABAS-3,35,28,40,49,None,ASD Level 1,Level 1,Autism Assessment Team,Yes
+ASS-CH-142,CH-142,2025-08-03,Autism Diagnostic Assessment,ADOS-2 Module 1,Module 1,6,1,7,low,Bayley-4,42,63,18,Vineland-3,5,7,5,18,Conners-3,ASD with Anxiety,Level 1,Clinical Psychologist,Yes
+ASS-CH-143,CH-143,2025-10-22,Autism Diagnostic Assessment,ADOS-2 + DAS-II + ABAS-3,Module 2,6,1,7,low,Mullen Scales,16,64,45,Vineland-3,6,11,9,21,None,ASD Level 1,Level 1,Clinical Psychologist,Yes
+ASS-CH-144,CH-144,2025-11-10,Autism Diagnostic Assessment,M-CHAT-R/F,Module 1,8,2,10,low,Mullen Scales,32,57,16,Vineland-3,9,18,12,6,None,Autism Spectrum Disorder,Level 1,Autism Assessment Team,Yes
+ASS-CH-145,CH-145,2026-02-21,Autism Diagnostic Assessment,ADOS-2 + DAS-II + ABAS-3,Module 2,9,4,13,moderate,DAS-II,4,48,4,Vineland-3,2,1,1,7,ASRS,ASD with Language Impairment,Level 2,Clinical Psychologist,Yes
+ASS-CH-146,CH-146,2026-02-23,Autism Diagnostic Assessment,ADOS-2 Module 1,Module 1,11,4,15,high,Bayley-4,9,16,6,ABAS-3,5,11,1,13,ASRS,ASD with Intellectual Disability,Level 3,Autism Assessment Team,Yes
+ASS-CH-147,CH-147,2026-03-16,Autism Diagnostic Assessment,M-CHAT-R/F + ADOS-2,Module 1,6,1,7,moderate,WPPSI-IV,12,43,6,ABAS-3,6,7,5,6,ASRS,ASD (provisional),Level 2,Clinical Psychologist,Yes
+ASS-CH-148,CH-148,2025-08-27,Autism Diagnostic Assessment,ADOS-2 Module 1,Module 1,5,2,7,low,DAS-II,50,31,39,Vineland-3,10,15,9,19,CBCL,ASD with Anxiety,Level 1,Developmental Pediatrician,Yes
+ASS-CH-149,CH-149,2025-01-19,Autism Diagnostic Assessment,M-CHAT-R/F + ADOS-2,Module 1,20,6,26,high,WPPSI-IV,3,25,6,Vineland-3,4,3,7,2,ASRS,ASD with Language Impairment,Level 3,Autism Assessment Team,Yes
+ASS-CH-150,CH-150,2026-04-14,Autism Diagnostic Assessment,ADOS-2 + DAS-II + ABAS-3,Module 2,7,3,10,moderate,Bayley-4,5,34,3,Vineland-3,5,1,6,19,Conners-3,ASD Level 2,Level 2,Autism Assessment Team,Yes
+ASS-CH-151,CH-151,2026-03-20,Autism Diagnostic Assessment,M-CHAT-R/F + ADOS-2,Module 1,17,8,25,high,WPPSI-IV,8,12,8,ABAS-3,5,3,1,2,ASRS,ASD with Intellectual Disability,Level 3,Developmental Pediatrician,Yes
+ASS-CH-152,CH-152,2025-04-23,Autism Diagnostic Assessment,M-CHAT-R/F + ADOS-2,Module 1,16,7,23,high,Mullen Scales,8,18,3,Vineland-3,2,1,4,17,CBCL,ASD with Intellectual Disability,Level 3,Clinical Psychologist,Partial
+ASS-CH-153,CH-153,2025-05-12,Autism Diagnostic Assessment,ADOS-2 + DAS-II + ABAS-3,Module 1,8,3,11,low,Bayley-4,53,61,15,Vineland-3,15,18,17,29,None,ASD with ADHD features,Level 1,Developmental Pediatrician,Partial
+ASS-CH-154,CH-154,2026-04-30,Autism Diagnostic Assessment,M-CHAT-R/F,Module 1,17,4,21,high,DAS-II,8,5,2,Vineland-3,3,10,1,1,CBCL,ASD with Language Impairment,Level 3,Autism Assessment Team,Yes
+ASS-CH-155,CH-155,2026-03-22,Autism Diagnostic Assessment,ADOS-2 Module 2,Module 2,9,7,16,high,WPPSI-IV,6,13,3,Vineland-3,5,6,2,1,None,ASD with Language Impairment,Level 3,Clinical Psychologist,Partial
+ASS-CH-156,CH-156,2025-07-31,Autism Diagnostic Assessment,SCQ,Module 2,7,6,13,moderate,Bayley-4,12,14,11,Vineland-3,6,1,16,4,CBCL,ASD (provisional),Level 2,Autism Assessment Team,Yes
+ASS-CH-157,CH-157,2025-04-11,Autism Diagnostic Assessment,ADOS-2 Module 1,Module 1,6,3,9,low,Bayley-4,51,51,46,ABAS-3,21,23,16,23,ASRS,ASD with ADHD features,Level 1,Autism Assessment Team,Yes
+ASS-CH-158,CH-158,2025-07-03,Autism Diagnostic Assessment,M-CHAT-R/F + ADOS-2,Module 1,4,0,4,low,WPPSI-IV,49,59,33,Vineland-3,5,2,14,20,Conners-3,ASD with ADHD features,Level 1,Developmental Pediatrician,Yes
+ASS-CH-159,CH-159,2026-03-27,Autism Diagnostic Assessment,ADOS-2 Module 1,Module 1,16,6,22,high,Mullen Scales,8,9,3,ABAS-3,2,10,4,16,Conners-3,ASD with Intellectual Disability,Level 3,Clinical Psychologist,Yes
+ASS-CH-160,CH-160,2025-10-02,Autism Diagnostic Assessment,CARS-2,Module 3,5,3,8,low,Bayley-4,24,57,12,Vineland-3,27,19,37,28,ASRS,Autism Spectrum Disorder,Level 1,Autism Assessment Team,Partial
+ASS-CH-161,CH-161,2026-02-04,Autism Diagnostic Assessment,ADOS-2 + DAS-II + ABAS-3,Module 3,2,1,3,low,Mullen Scales,27,47,47,ABAS-3,25,18,30,22,None,ASD Level 1,Level 1,Autism Assessment Team,Yes
+ASS-CH-162,CH-162,2025-06-22,Autism Diagnostic Assessment,ADOS-2 + DAS-II + ABAS-3,Module 2,5,1,6,moderate,WPPSI-IV,7,22,17,Vineland-3,15,10,15,15,CBCL,ASD (provisional),Level 2,Developmental Pediatrician,Yes
+ASS-CH-163,CH-163,2026-05-08,Autism Diagnostic Assessment,ADOS-2 Module 1,Module 1,7,5,12,moderate,Mullen Scales,14,46,5,Vineland-3,13,20,13,10,CBCL,ASD (provisional),Level 2,Developmental Pediatrician,Yes
+ASS-CH-164,CH-164,2025-08-10,Autism Diagnostic Assessment,ADOS-2 Module 1,Module 2,12,7,19,high,Bayley-4,4,14,6,ABAS-3,3,1,1,2,Conners-3,ASD with Language Impairment,Level 3,Clinical Psychologist,Yes
+ASS-CH-165,CH-165,2025-12-30,Autism Diagnostic Assessment,CARS-2 + Vineland-3,Module 1,13,5,18,moderate,Mullen Scales,4,33,13,ABAS-3,15,7,17,21,None,Autism Spectrum Disorder,Level 2,Autism Assessment Team,Yes
+ASS-CH-166,CH-166,2025-03-23,Autism Diagnostic Assessment,ADOS-2 Module 1,Module 1,2,3,5,low,WPPSI-IV,14,15,46,ABAS-3,26,35,34,32,CBCL,Autism Spectrum Disorder,Level 1,Developmental Pediatrician,Partial
+ASS-CH-167,CH-167,2026-04-02,Autism Diagnostic Assessment,SCQ,Module 2,3,3,6,low,WPPSI-IV,58,25,21,ABAS-3,5,6,1,8,ASRS,ASD Level 1,Level 1,Clinical Psychologist,Yes
+ASS-CH-168,CH-168,2026-03-04,Autism Diagnostic Assessment,ADOS-2 Module 2,Module 2,10,2,12,moderate,DAS-II,6,12,9,Vineland-3,7,13,2,7,ASRS,Autism Spectrum Disorder,Level 2,Developmental Pediatrician,Partial
+ASS-CH-169,CH-169,2026-02-01,Autism Diagnostic Assessment,CARS-2 + Vineland-3,Module 1,6,2,8,moderate,Mullen Scales,8,23,6,Vineland-3,13,20,17,21,ASRS,ASD Level 2,Level 2,Developmental Pediatrician,Yes
+ASS-CH-170,CH-170,2025-03-01,Autism Diagnostic Assessment,ADOS-2 Module 3,Module 3,5,1,6,low,Mullen Scales,11,20,47,Vineland-3,25,16,24,37,CBCL,Autism Spectrum Disorder,Level 1,Autism Assessment Team,Yes
+ASS-CH-171,CH-171,2025-04-16,Autism Diagnostic Assessment,CARS-2,Module 1,16,4,20,high,WPPSI-IV,5,18,7,ABAS-3,3,9,1,2,Conners-3,ASD with Language Impairment,Level 3,Developmental Pediatrician,Yes
+ASS-CH-172,CH-172,2025-04-20,Autism Diagnostic Assessment,ADOS-2 Module 3,Module 2,1,3,4,low,Mullen Scales,11,24,25,Vineland-3,28,27,18,23,Conners-3,ASD with ADHD features,Level 1,Autism Assessment Team,Yes
+ASS-CH-173,CH-173,2025-11-06,Autism Diagnostic Assessment,CARS-2 + Vineland-3,Module 2,10,2,12,moderate,Mullen Scales,2,45,3,Vineland-3,12,4,10,9,Conners-3,ASD Level 2,Level 2,Clinical Psychologist,Yes
+ASS-CH-174,CH-174,2025-10-05,Autism Diagnostic Assessment,ADOS-2 Module 1,Module 1,14,4,18,moderate,Bayley-4,20,19,9,ABAS-3,7,13,1,12,CBCL,Autism Spectrum Disorder,Level 2,Developmental Pediatrician,Yes
+ASS-CH-175,CH-175,2025-05-23,Autism Diagnostic Assessment,M-CHAT-R/F,Module 1,14,6,20,high,WPPSI-IV,8,3,3,Vineland-3,2,6,1,4,ASRS,ASD Level 3,Level 3,Clinical Psychologist,Yes
+ASS-CH-176,CH-176,2025-06-01,Autism Diagnostic Assessment,ADOS-2 Module 2,Module 2,12,2,14,moderate,Bayley-4,1,42,10,ABAS-3,10,14,13,22,ASRS,ASD (provisional),Level 2,Developmental Pediatrician,Yes
+ASS-CH-177,CH-177,2025-01-21,Autism Diagnostic Assessment,M-CHAT-R/F,Module 1,6,1,7,moderate,Bayley-4,5,33,11,ABAS-3,4,11,14,9,None,ASD Level 2,Level 2,Clinical Psychologist,Yes
+ASS-CH-178,CH-178,2026-02-14,Autism Diagnostic Assessment,ADOS-2 Module 2,Module 1,12,3,15,moderate,DAS-II,24,7,14,ABAS-3,2,1,6,14,ASRS,ASD Level 2,Level 2,Developmental Pediatrician,Yes
+ASS-CH-179,CH-179,2025-10-02,Autism Diagnostic Assessment,ADOS-2 Module 2,Module 3,5,1,6,low,Mullen Scales,46,64,34,ABAS-3,30,26,31,44,None,ASD with ADHD features,Level 1,Autism Assessment Team,Yes
+ASS-CH-180,CH-180,2025-05-08,Autism Diagnostic Assessment,ADOS-2 Module 2,Module 1,3,3,6,low,Mullen Scales,54,62,20,Vineland-3,29,27,35,33,Conners-3,ASD with Anxiety,Level 1,Developmental Pediatrician,Yes
+ASS-CH-181,CH-181,2026-03-19,Autism Diagnostic Assessment,ADOS-2 Module 1,Module 1,14,4,18,high,Bayley-4,6,5,3,Vineland-3,4,1,10,1,None,ASD Level 3,Level 3,Autism Assessment Team,Yes
+ASS-CH-182,CH-182,2025-11-15,Autism Diagnostic Assessment,CARS-2,Module 1,2,3,5,low,Mullen Scales,22,65,30,Vineland-3,19,14,14,14,ASRS,ASD Level 1,Level 1,Autism Assessment Team,Yes
+ASS-CH-183,CH-183,2025-01-27,Autism Diagnostic Assessment,SCQ,Module 3,1,3,4,low,WPPSI-IV,49,31,17,ABAS-3,19,26,23,20,CBCL,ASD with Anxiety,Level 1,Autism Assessment Team,Yes
+ASS-CH-184,CH-184,2026-01-28,Autism Diagnostic Assessment,ADOS-2 Module 2,Module 2,10,2,12,moderate,DAS-II,24,14,13,Vineland-3,1,11,7,10,Conners-3,ASD Level 2,Level 2,Clinical Psychologist,Partial
+ASS-CH-185,CH-185,2026-04-18,Autism Diagnostic Assessment,ADOS-2 Module 1,Module 2,6,2,8,low,DAS-II,20,32,19,ABAS-3,15,12,17,11,None,ASD with Anxiety,Level 1,Clinical Psychologist,Yes
+ASS-CH-186,CH-186,2025-01-09,Autism Diagnostic Assessment,CARS-2,Module 1,10,5,15,moderate,DAS-II,8,37,19,Vineland-3,13,19,10,27,CBCL,ASD Level 2,Level 2,Autism Assessment Team,Partial
+ASS-CH-187,CH-187,2026-01-19,Autism Diagnostic Assessment,ADOS-2 + DAS-II + ABAS-3,Module 3,4,4,8,moderate,WPPSI-IV,10,35,14,ABAS-3,10,13,13,7,CBCL,Autism Spectrum Disorder,Level 2,Clinical Psychologist,Yes
+ASS-CH-188,CH-188,2025-10-14,Autism Diagnostic Assessment,CARS-2,Module 3,5,2,7,low,Bayley-4,48,51,23,ABAS-3,21,13,30,33,Conners-3,ASD Level 1,Level 1,Developmental Pediatrician,Partial
+ASS-CH-189,CH-189,2025-01-27,Autism Diagnostic Assessment,M-CHAT-R/F + ADOS-2,Module 1,9,6,15,moderate,WPPSI-IV,19,19,9,Vineland-3,14,4,8,17,Conners-3,Autism Spectrum Disorder,Level 2,Autism Assessment Team,Partial
+ASS-CH-190,CH-190,2025-07-25,Autism Diagnostic Assessment,M-CHAT-R/F + ADOS-2,Module 1,13,5,18,high,WPPSI-IV,2,12,2,ABAS-3,4,8,1,10,Conners-3,ASD with Language Impairment,Level 3,Autism Assessment Team,Yes
+ASS-CH-191,CH-191,2025-06-28,Autism Diagnostic Assessment,ADOS-2 Module 1,Module 1,20,4,24,high,WPPSI-IV,10,17,8,ABAS-3,5,11,1,2,CBCL,ASD with Language Impairment,Level 3,Clinical Psychologist,Yes
+ASS-CH-192,CH-192,2025-05-30,Autism Diagnostic Assessment,CARS-2 + Vineland-3,Module 1,6,3,9,moderate,Bayley-4,18,50,13,Vineland-3,13,15,18,21,ASRS,Autism Spectrum Disorder,Level 2,Clinical Psychologist,Yes
+ASS-CH-193,CH-193,2025-05-06,Autism Diagnostic Assessment,ADOS-2 + DAS-II + ABAS-3,Module 3,15,5,20,high,Bayley-4,10,11,2,ABAS-3,1,11,1,7,CBCL,ASD Level 3,Level 3,Developmental Pediatrician,Yes
+ASS-CH-194,CH-194,2025-07-08,Autism Diagnostic Assessment,ADOS-2 + DAS-II + ABAS-3,Module 3,2,3,5,low,Bayley-4,58,74,33,ABAS-3,27,35,37,35,ASRS,Autism Spectrum Disorder,Level 1,Developmental Pediatrician,Partial
+ASS-CH-195,CH-195,2025-09-20,Autism Diagnostic Assessment,ADOS-2 Module 1,Module 2,8,3,11,moderate,WPPSI-IV,13,21,9,ABAS-3,3,1,1,12,Conners-3,ASD Level 2,Level 2,Developmental Pediatrician,Partial
+ASS-CH-196,CH-196,2025-04-11,Autism Diagnostic Assessment,ADOS-2 Module 1,Module 1,10,2,12,moderate,Bayley-4,14,18,18,ABAS-3,8,3,1,20,Conners-3,ASD Level 2,Level 2,Clinical Psychologist,Yes
+ASS-CH-197,CH-197,2025-03-03,Autism Diagnostic Assessment,ADOS-2 Module 3,Module 2,2,2,4,low,WPPSI-IV,36,25,43,Vineland-3,15,17,23,13,None,ASD with ADHD features,Level 1,Clinical Psychologist,Yes
+ASS-CH-198,CH-198,2025-12-08,Autism Diagnostic Assessment,CARS-2 + Vineland-3,Module 1,10,6,16,moderate,Bayley-4,4,26,18,Vineland-3,2,9,1,16,ASRS,Autism Spectrum Disorder,Level 2,Clinical Psychologist,Yes
+ASS-CH-199,CH-199,2025-01-04,Autism Diagnostic Assessment,ADOS-2 Module 1,Module 1,19,6,25,high,DAS-II,1,8,5,ABAS-3,3,6,1,7,Conners-3,ASD with Language Impairment,Level 3,Autism Assessment Team,Yes
+ASS-CH-200,CH-200,2025-08-31,Autism Diagnostic Assessment,ADOS-2 Module 1,Module 2,10,5,15,moderate,Mullen Scales,15,37,17,Vineland-3,10,2,10,7,ASRS,ASD Level 2,Level 2,Developmental Pediatrician,Yes
+ASS-CH-201,CH-201,2025-11-26,Autism Diagnostic Assessment,M-CHAT-R/F,Module 1,7,1,8,moderate,WPPSI-IV,7,48,7,ABAS-3,13,16,5,21,Conners-3,ASD with Language Impairment,Level 2,Clinical Psychologist,Yes
+ASS-CH-202,CH-202,2025-05-14,Autism Diagnostic Assessment,ADOS-2 Module 2,Module 1,2,3,5,low,Bayley-4,53,29,49,ABAS-3,27,34,22,23,CBCL,ASD with ADHD features,Level 1,Developmental Pediatrician,Yes
+ASS-CH-203,CH-203,2025-02-20,Autism Diagnostic Assessment,ADOS-2 + DAS-II + ABAS-3,Module 2,11,7,18,high,DAS-II,1,13,3,ABAS-3,1,1,3,4,CBCL,ASD with Intellectual Disability,Level 3,Autism Assessment Team,Yes
+ASS-CH-204,CH-204,2025-07-01,Autism Diagnostic Assessment,CARS-2 + Vineland-3,Module 1,17,6,23,high,Mullen Scales,5,24,2,Vineland-3,4,1,7,15,ASRS,ASD with Intellectual Disability,Level 3,Developmental Pediatrician,Yes
+ASS-CH-205,CH-205,2025-08-29,Autism Diagnostic Assessment,M-CHAT-R/F,Module 1,4,2,6,low,Bayley-4,34,38,13,ABAS-3,20,14,18,35,ASRS,Autism Spectrum Disorder,Level 1,Clinical Psychologist,Yes
+ASS-CH-206,CH-206,2025-10-04,Autism Diagnostic Assessment,ADOS-2 Module 1,Module 1,7,7,14,moderate,Bayley-4,25,45,11,ABAS-3,1,2,1,1,ASRS,ASD Level 2,Level 2,Developmental Pediatrician,Yes
+ASS-CH-207,CH-207,2025-02-18,Autism Diagnostic Assessment,CARS-2 + Vineland-3,Module 1,7,2,9,low,Bayley-4,18,32,12,Vineland-3,7,2,8,17,Conners-3,ASD with ADHD features,Level 1,Clinical Psychologist,Yes
+ASS-CH-208,CH-208,2025-10-26,Autism Diagnostic Assessment,ADOS-2 Module 2,Module 2,15,4,19,high,DAS-II,6,9,5,ABAS-3,2,1,7,3,None,ASD Level 3,Level 3,Clinical Psychologist,Yes
+ASS-CH-209,CH-209,2026-01-13,Autism Diagnostic Assessment,CARS-2,Module 2,10,6,16,moderate,Bayley-4,5,5,14,ABAS-3,2,8,2,1,Conners-3,ASD Level 2,Level 2,Autism Assessment Team,Yes
+ASS-CH-210,CH-210,2026-02-10,Autism Diagnostic Assessment,CARS-2,Module 1,5,2,7,low,Bayley-4,46,17,12,ABAS-3,9,1,1,9,ASRS,Autism Spectrum Disorder,Level 1,Autism Assessment Team,Yes
+ASS-CH-211,CH-211,2026-03-14,Autism Diagnostic Assessment,ADOS-2 Module 2,Module 2,11,5,16,moderate,Mullen Scales,11,5,17,ABAS-3,14,16,5,12,ASRS,ASD with Language Impairment,Level 2,Clinical Psychologist,Yes
+ASS-CH-212,CH-212,2026-01-19,Autism Diagnostic Assessment,ADOS-2 Module 1,Module 1,7,4,11,low,Mullen Scales,31,27,35,Vineland-3,35,35,25,33,None,Autism Spectrum Disorder,Level 1,Developmental Pediatrician,Yes
+ASS-CH-213,CH-213,2025-02-18,Autism Diagnostic Assessment,CARS-2 + Vineland-3,Module 1,6,7,13,moderate,DAS-II,12,49,17,Vineland-3,12,22,3,23,CBCL,ASD Level 2,Level 2,Autism Assessment Team,Yes
+ASS-CH-214,CH-214,2025-03-12,Autism Diagnostic Assessment,ADOS-2 Module 1,Module 2,11,2,13,moderate,DAS-II,2,31,18,ABAS-3,5,13,14,11,ASRS,ASD with Language Impairment,Level 2,Autism Assessment Team,Yes
+ASS-CH-215,CH-215,2026-02-11,Autism Diagnostic Assessment,ADOS-2 Module 1,Module 1,14,3,17,moderate,Mullen Scales,1,16,11,ABAS-3,10,1,3,23,CBCL,ASD Level 2,Level 2,Autism Assessment Team,Yes
+ASS-CH-216,CH-216,2025-11-08,Autism Diagnostic Assessment,ADOS-2 Module 3,Module 3,9,4,13,moderate,DAS-II,19,37,16,ABAS-3,2,1,1,12,None,ASD (provisional),Level 2,Autism Assessment Team,Partial
+ASS-CH-217,CH-217,2025-12-21,Autism Diagnostic Assessment,ADOS-2 + DAS-II + ABAS-3,Module 3,3,0,3,low,DAS-II,12,25,50,Vineland-3,14,7,4,10,Conners-3,ASD with ADHD features,Level 1,Clinical Psychologist,Partial
+ASS-CH-218,CH-218,2025-10-24,Autism Diagnostic Assessment,M-CHAT-R/F,Module 1,5,4,9,low,Mullen Scales,22,63,46,ABAS-3,33,32,37,34,CBCL,Autism Spectrum Disorder,Level 1,Clinical Psychologist,Yes
+ASS-CH-219,CH-219,2025-01-10,Autism Diagnostic Assessment,ADOS-2 Module 2,Module 2,6,1,7,low,Mullen Scales,58,61,17,ABAS-3,14,19,20,24,ASRS,ASD Level 1,Level 1,Developmental Pediatrician,Yes
+ASS-CH-220,CH-220,2026-02-25,Autism Diagnostic Assessment,ADOS-2 Module 3,Module 2,3,2,5,low,Mullen Scales,41,19,19,Vineland-3,31,39,33,46,Conners-3,Autism Spectrum Disorder,Level 1,Developmental Pediatrician,Yes
+ASS-CH-221,CH-221,2025-09-05,Autism Diagnostic Assessment,ADOS-2 Module 1,Module 1,13,7,20,high,WPPSI-IV,5,2,7,ABAS-3,3,12,10,17,CBCL,ASD with Language Impairment,Level 3,Clinical Psychologist,Yes
+ASS-CH-222,CH-222,2025-04-30,Autism Diagnostic Assessment,ADOS-2 + DAS-II + ABAS-3,Module 2,16,7,23,high,Mullen Scales,1,13,6,Vineland-3,3,1,3,16,None,ASD Level 3,Level 3,Clinical Psychologist,Yes
+ASS-CH-223,CH-223,2025-10-25,Autism Diagnostic Assessment,ADOS-2 Module 1,Module 2,13,6,19,high,DAS-II,3,8,5,ABAS-3,5,1,15,3,None,ASD with Intellectual Disability,Level 3,Autism Assessment Team,Yes
+ASS-CH-224,CH-224,2026-03-09,Autism Diagnostic Assessment,CARS-2,Module 2,11,5,16,moderate,WPPSI-IV,19,13,20,ABAS-3,6,12,8,18,ASRS,Autism Spectrum Disorder,Level 2,Developmental Pediatrician,Yes
+ASS-CH-225,CH-225,2025-09-16,Autism Diagnostic Assessment,ADOS-2 Module 2,Module 1,18,4,22,high,WPPSI-IV,3,18,4,Vineland-3,3,1,6,4,ASRS,ASD with Intellectual Disability,Level 3,Developmental Pediatrician,Yes
+ASS-CH-226,CH-226,2025-12-08,Autism Diagnostic Assessment,M-CHAT-R/F,Module 1,19,4,23,high,Mullen Scales,1,16,5,ABAS-3,1,1,1,13,None,ASD with Intellectual Disability,Level 3,Autism Assessment Team,Yes
+ASS-CH-227,CH-227,2025-02-08,Autism Diagnostic Assessment,M-CHAT-R/F + ADOS-2,Module 1,4,0,4,low,Mullen Scales,32,73,50,ABAS-3,30,31,29,31,ASRS,ASD Level 1,Level 1,Clinical Psychologist,Yes
+ASS-CH-228,CH-228,2025-09-11,Autism Diagnostic Assessment,M-CHAT-R/F + ADOS-2,Module 1,13,1,14,moderate,WPPSI-IV,6,39,5,Vineland-3,5,1,1,18,CBCL,ASD (provisional),Level 2,Autism Assessment Team,Partial
+ASS-CH-229,CH-229,2026-02-13,Autism Diagnostic Assessment,SCQ,Module 3,5,1,6,moderate,WPPSI-IV,17,10,13,Vineland-3,12,2,7,27,Conners-3,ASD (provisional),Level 2,Developmental Pediatrician,Yes
+ASS-CH-230,CH-230,2026-03-25,Autism Diagnostic Assessment,ADOS-2 Module 1,Module 1,4,3,7,low,Bayley-4,26,28,41,Vineland-3,7,7,11,7,ASRS,ASD with Anxiety,Level 1,Clinical Psychologist,Yes
+ASS-CH-231,CH-231,2025-01-13,Autism Diagnostic Assessment,M-CHAT-R/F + ADOS-2,Module 1,5,0,5,low,DAS-II,46,48,48,ABAS-3,7,14,12,2,ASRS,ASD with ADHD features,Level 1,Autism Assessment Team,Yes
+ASS-CH-232,CH-232,2025-02-07,Autism Diagnostic Assessment,CARS-2,Module 2,8,6,14,moderate,DAS-II,4,19,9,ABAS-3,12,15,19,14,Conners-3,ASD with Language Impairment,Level 2,Developmental Pediatrician,Yes
+ASS-CH-233,CH-233,2025-03-20,Autism Diagnostic Assessment,ADOS-2 + DAS-II + ABAS-3,Module 2,5,3,8,low,Mullen Scales,31,63,43,ABAS-3,12,12,16,10,ASRS,ASD with Anxiety,Level 1,Autism Assessment Team,Yes
+ASS-CH-234,CH-234,2025-10-11,Autism Diagnostic Assessment,ADOS-2 + DAS-II + ABAS-3,Module 1,18,4,22,high,Bayley-4,3,25,8,Vineland-3,3,4,4,1,Conners-3,ASD Level 3,Level 3,Autism Assessment Team,Partial
+ASS-CH-235,CH-235,2025-01-05,Autism Diagnostic Assessment,ADOS-2 Module 1,Module 2,9,6,15,moderate,DAS-II,13,34,10,Vineland-3,8,13,12,7,CBCL,ASD (provisional),Level 2,Clinical Psychologist,Yes
+ASS-CH-236,CH-236,2025-02-25,Autism Diagnostic Assessment,ADOS-2 Module 2,Module 1,3,2,5,low,Mullen Scales,58,24,37,ABAS-3,10,1,10,5,Conners-3,ASD with ADHD features,Level 1,Autism Assessment Team,Yes
+ASS-CH-237,CH-237,2025-12-17,Autism Diagnostic Assessment,ADOS-2 + DAS-II + ABAS-3,Module 2,13,4,17,high,Mullen Scales,5,8,1,ABAS-3,2,1,10,6,ASRS,ASD Level 3,Level 3,Clinical Psychologist,Yes
+ASS-CH-238,CH-238,2025-10-27,Autism Diagnostic Assessment,CARS-2,Module 1,13,5,18,moderate,Mullen Scales,14,32,3,Vineland-3,3,13,1,16,None,ASD (provisional),Level 2,Developmental Pediatrician,Yes
+ASS-CH-239,CH-239,2026-03-10,Autism Diagnostic Assessment,CARS-2,Module 1,10,1,11,moderate,Mullen Scales,5,27,14,Vineland-3,5,1,12,19,Conners-3,ASD (provisional),Level 2,Clinical Psychologist,Yes
+ASS-CH-240,CH-240,2026-02-13,Autism Diagnostic Assessment,CARS-2 + Vineland-3,Module 2,11,4,15,moderate,Bayley-4,4,33,15,ABAS-3,9,11,18,6,ASRS,ASD (provisional),Level 2,Autism Assessment Team,Yes
+ASS-CH-241,CH-241,2025-02-26,Autism Diagnostic Assessment,CARS-2 + Vineland-3,Module 2,14,3,17,high,DAS-II,5,15,4,ABAS-3,1,1,1,1,CBCL,ASD Level 3,Level 3,Developmental Pediatrician,Yes
+ASS-CH-242,CH-242,2025-12-07,Autism Diagnostic Assessment,ADOS-2 + DAS-II + ABAS-3,Module 1,13,1,14,moderate,Mullen Scales,14,23,17,Vineland-3,8,18,1,19,None,ASD (provisional),Level 2,Clinical Psychologist,Yes
+ASS-CH-243,CH-243,2025-01-26,Autism Diagnostic Assessment,CARS-2 + Vineland-3,Module 2,9,2,11,moderate,Mullen Scales,25,38,9,Vineland-3,4,8,6,14,None,ASD (provisional),Level 2,Clinical Psychologist,Yes
+ASS-CH-244,CH-244,2026-03-25,Autism Diagnostic Assessment,M-CHAT-R/F + ADOS-2,Module 1,12,2,14,moderate,WPPSI-IV,8,47,6,Vineland-3,3,3,1,4,Conners-3,ASD (provisional),Level 2,Developmental Pediatrician,Partial
+ASS-CH-245,CH-245,2025-11-01,Autism Diagnostic Assessment,M-CHAT-R/F + ADOS-2,Module 1,9,1,10,moderate,Bayley-4,24,9,16,ABAS-3,13,4,17,14,Conners-3,ASD Level 2,Level 2,Clinical Psychologist,Partial
+ASS-CH-246,CH-246,2026-02-05,Autism Diagnostic Assessment,ADOS-2 Module 3,Module 3,4,1,5,low,Bayley-4,24,27,38,Vineland-3,32,40,28,40,CBCL,ASD Level 1,Level 1,Autism Assessment Team,Partial
+ASS-CH-247,CH-247,2025-12-14,Autism Diagnostic Assessment,CARS-2 + Vineland-3,Module 2,13,7,20,high,DAS-II,10,4,3,ABAS-3,5,13,10,3,CBCL,ASD with Intellectual Disability,Level 3,Developmental Pediatrician,Partial
+ASS-CH-248,CH-248,2026-03-31,Autism Diagnostic Assessment,ADOS-2 Module 1,Module 1,2,3,5,low,Bayley-4,27,41,34,ABAS-3,21,26,24,18,None,ASD Level 1,Level 1,Developmental Pediatrician,Yes
+ASS-CH-249,CH-249,2025-11-03,Autism Diagnostic Assessment,CARS-2,Module 1,7,0,7,low,Bayley-4,38,58,16,ABAS-3,18,10,13,15,None,ASD Level 1,Level 1,Clinical Psychologist,Yes
+ASS-CH-250,CH-250,2026-04-16,Autism Diagnostic Assessment,M-CHAT-R/F,Module 1,8,6,14,moderate,WPPSI-IV,21,48,6,ABAS-3,7,4,1,18,ASRS,Autism Spectrum Disorder,Level 2,Clinical Psychologist,Partial
+ASS-CH-251,CH-251,2025-09-20,Autism Diagnostic Assessment,M-CHAT-R/F + ADOS-2,Module 1,5,3,8,low,WPPSI-IV,45,61,43,ABAS-3,14,21,21,14,None,Autism Spectrum Disorder,Level 1,Autism Assessment Team,Yes
+ASS-CH-252,CH-252,2025-03-22,Autism Diagnostic Assessment,CARS-2,Module 2,8,6,14,moderate,WPPSI-IV,8,15,10,ABAS-3,8,9,5,23,None,Autism Spectrum Disorder,Level 2,Autism Assessment Team,Yes
+ASS-CH-253,CH-253,2026-01-01,Autism Diagnostic Assessment,CARS-2,Module 1,7,0,7,low,Bayley-4,13,22,33,ABAS-3,28,20,28,27,Conners-3,ASD with Anxiety,Level 1,Developmental Pediatrician,Partial
+ASS-CH-254,CH-254,2025-01-30,Autism Diagnostic Assessment,ADOS-2 + DAS-II + ABAS-3,Module 1,7,2,9,low,DAS-II,53,64,23,ABAS-3,8,3,11,10,None,ASD with Anxiety,Level 1,Autism Assessment Team,Yes
+ASS-CH-255,CH-255,2026-05-05,Autism Diagnostic Assessment,CARS-2,Module 1,14,7,21,moderate,Bayley-4,24,46,12,ABAS-3,4,1,1,12,Conners-3,Autism Spectrum Disorder,Level 2,Clinical Psychologist,Yes
+ASS-CH-256,CH-256,2025-03-15,Autism Diagnostic Assessment,CARS-2,Module 2,8,1,9,moderate,Mullen Scales,1,22,17,Vineland-3,3,8,7,1,Conners-3,ASD (provisional),Level 2,Clinical Psychologist,Yes
+ASS-CH-257,CH-257,2025-03-18,Autism Diagnostic Assessment,ADOS-2 Module 1,Module 1,10,1,11,moderate,Bayley-4,23,32,5,Vineland-3,13,18,10,13,CBCL,ASD with Language Impairment,Level 2,Clinical Psychologist,Partial
+ASS-CH-258,CH-258,2025-09-13,Autism Diagnostic Assessment,ADOS-2 Module 2,Module 1,9,7,16,moderate,Mullen Scales,11,13,16,Vineland-3,7,1,13,5,ASRS,Autism Spectrum Disorder,Level 2,Developmental Pediatrician,Yes
+ASS-CH-259,CH-259,2025-03-27,Autism Diagnostic Assessment,M-CHAT-R/F + ADOS-2,Module 1,2,0,2,low,DAS-II,44,27,38,ABAS-3,19,26,24,15,Conners-3,ASD Level 1,Level 1,Autism Assessment Team,Yes
+ASS-CH-260,CH-260,2025-02-25,Autism Diagnostic Assessment,SCQ,Module 2,6,2,8,low,Bayley-4,59,58,39,ABAS-3,26,21,27,31,CBCL,Autism Spectrum Disorder,Level 1,Autism Assessment Team,Partial
+ASS-CH-261,CH-261,2026-01-06,Autism Diagnostic Assessment,M-CHAT-R/F + ADOS-2,Module 1,11,5,16,moderate,DAS-II,25,15,4,Vineland-3,8,16,11,19,CBCL,Autism Spectrum Disorder,Level 2,Clinical Psychologist,Yes
+ASS-CH-262,CH-262,2025-06-30,Autism Diagnostic Assessment,ADOS-2 Module 1,Module 2,18,6,24,high,WPPSI-IV,4,7,8,ABAS-3,4,1,9,5,None,ASD Level 3,Level 3,Developmental Pediatrician,Partial
+ASS-CH-263,CH-263,2025-09-11,Autism Diagnostic Assessment,ADOS-2 Module 2,Module 1,18,8,26,high,Bayley-4,5,7,6,ABAS-3,5,1,1,15,Conners-3,ASD with Language Impairment,Level 3,Autism Assessment Team,Yes
+ASS-CH-264,CH-264,2026-03-18,Autism Diagnostic Assessment,ADOS-2 + DAS-II + ABAS-3,Module 2,10,3,13,moderate,DAS-II,4,45,7,Vineland-3,11,19,16,24,CBCL,Autism Spectrum Disorder,Level 2,Developmental Pediatrician,Yes
+ASS-CH-265,CH-265,2025-12-05,Autism Diagnostic Assessment,CARS-2 + Vineland-3,Module 1,11,7,18,high,WPPSI-IV,9,5,7,ABAS-3,1,8,6,12,Conners-3,ASD with Intellectual Disability,Level 3,Autism Assessment Team,Yes
+ASS-CH-266,CH-266,2026-03-05,Autism Diagnostic Assessment,ADOS-2 Module 2,Module 2,8,5,13,moderate,Bayley-4,22,12,2,Vineland-3,7,17,9,3,None,ASD Level 2,Level 2,Developmental Pediatrician,Yes
+ASS-CH-267,CH-267,2025-03-14,Autism Diagnostic Assessment,ADOS-2 Module 2,Module 2,3,2,5,low,WPPSI-IV,21,69,33,ABAS-3,6,1,11,6,ASRS,ASD with Anxiety,Level 1,Autism Assessment Team,Yes
+ASS-CH-268,CH-268,2025-05-04,Autism Diagnostic Assessment,M-CHAT-R/F,Module 1,2,1,3,low,Mullen Scales,24,27,14,ABAS-3,15,16,19,11,None,Autism Spectrum Disorder,Level 1,Clinical Psychologist,Yes
+ASS-CH-269,CH-269,2025-02-10,Autism Diagnostic Assessment,M-CHAT-R/F,Module 1,5,2,7,low,Mullen Scales,21,51,48,Vineland-3,11,4,12,17,ASRS,Autism Spectrum Disorder,Level 1,Autism Assessment Team,Yes
+ASS-CH-270,CH-270,2025-11-11,Autism Diagnostic Assessment,ADOS-2 + DAS-II + ABAS-3,Module 2,12,1,13,moderate,WPPSI-IV,23,24,14,ABAS-3,4,13,1,7,ASRS,Autism Spectrum Disorder,Level 2,Developmental Pediatrician,Yes
+ASS-CH-271,CH-271,2025-04-19,Autism Diagnostic Assessment,CARS-2,Module 1,15,7,22,high,Mullen Scales,9,13,2,Vineland-3,3,9,7,15,ASRS,ASD with Language Impairment,Level 3,Developmental Pediatrician,Yes
+ASS-CH-272,CH-272,2025-01-04,Autism Diagnostic Assessment,ADOS-2 Module 1,Module 1,7,3,10,low,Mullen Scales,17,24,39,ABAS-3,12,9,7,7,Conners-3,Autism Spectrum Disorder,Level 1,Autism Assessment Team,Yes
+ASS-CH-273,CH-273,2025-10-13,Autism Diagnostic Assessment,CARS-2,Module 3,3,3,6,low,Bayley-4,19,48,18,ABAS-3,6,2,12,9,Conners-3,Autism Spectrum Disorder,Level 1,Developmental Pediatrician,Yes
+ASS-CH-274,CH-274,2026-02-16,Autism Diagnostic Assessment,M-CHAT-R/F + ADOS-2,Module 1,7,2,9,moderate,WPPSI-IV,13,9,19,ABAS-3,5,3,5,13,ASRS,ASD (provisional),Level 2,Clinical Psychologist,Yes
+ASS-CH-275,CH-275,2025-05-31,Autism Diagnostic Assessment,ADOS-2 + DAS-II + ABAS-3,Module 3,5,3,8,moderate,WPPSI-IV,8,37,14,Vineland-3,7,17,13,18,CBCL,ASD with Language Impairment,Level 2,Clinical Psychologist,Yes
+ASS-CH-276,CH-276,2025-07-25,Autism Diagnostic Assessment,CARS-2 + Vineland-3,Module 2,5,2,7,low,Bayley-4,17,55,24,ABAS-3,12,16,7,7,ASRS,ASD Level 1,Level 1,Autism Assessment Team,Partial
+ASS-CH-277,CH-277,2026-02-05,Autism Diagnostic Assessment,ADOS-2 + DAS-II + ABAS-3,Module 1,3,0,3,low,DAS-II,15,24,35,Vineland-3,29,36,27,27,ASRS,Autism Spectrum Disorder,Level 1,Developmental Pediatrician,Partial
+ASS-CH-278,CH-278,2025-02-05,Autism Diagnostic Assessment,M-CHAT-R/F + ADOS-2,Module 1,2,4,6,low,Mullen Scales,39,70,12,Vineland-3,35,39,26,36,ASRS,ASD Level 1,Level 1,Autism Assessment Team,Yes
+ASS-CH-279,CH-279,2026-05-01,Autism Diagnostic Assessment,ADOS-2 Module 1,Module 1,7,4,11,moderate,Bayley-4,16,8,14,ABAS-3,7,13,7,17,CBCL,Autism Spectrum Disorder,Level 2,Developmental Pediatrician,Yes
+ASS-CH-280,CH-280,2026-01-30,Autism Diagnostic Assessment,ADOS-2 + DAS-II + ABAS-3,Module 2,4,1,5,low,DAS-II,42,39,47,ABAS-3,19,11,29,27,None,ASD with Anxiety,Level 1,Autism Assessment Team,Yes
+ASS-CH-281,CH-281,2025-05-13,Autism Diagnostic Assessment,M-CHAT-R/F + ADOS-2,Module 1,3,3,6,low,DAS-II,11,70,37,Vineland-3,18,25,21,14,CBCL,Autism Spectrum Disorder,Level 1,Autism Assessment Team,Yes
+ASS-CH-282,CH-282,2025-03-04,Autism Diagnostic Assessment,CARS-2,Module 2,4,0,4,low,DAS-II,28,38,40,Vineland-3,27,26,25,26,CBCL,ASD with ADHD features,Level 1,Autism Assessment Team,Yes
+ASS-CH-283,CH-283,2025-11-19,Autism Diagnostic Assessment,ADOS-2 + DAS-II + ABAS-3,Module 3,12,3,15,high,Bayley-4,7,19,6,Vineland-3,3,1,4,4,None,ASD Level 3,Level 3,Autism Assessment Team,Yes
+ASS-CH-284,CH-284,2026-05-15,Autism Diagnostic Assessment,ADOS-2 Module 1,Module 1,14,3,17,moderate,DAS-II,24,48,8,Vineland-3,5,1,8,13,None,ASD with Language Impairment,Level 2,Developmental Pediatrician,Yes
+ASS-CH-285,CH-285,2025-12-18,Autism Diagnostic Assessment,ADOS-2 Module 2,Module 2,1,0,1,low,DAS-II,23,65,16,ABAS-3,10,13,20,10,ASRS,ASD with Anxiety,Level 1,Autism Assessment Team,Yes
+ASS-CH-286,CH-286,2026-01-06,Autism Diagnostic Assessment,ADOS-2 + DAS-II + ABAS-3,Module 2,9,3,12,high,DAS-II,7,13,5,ABAS-3,5,7,1,16,ASRS,ASD with Intellectual Disability,Level 3,Developmental Pediatrician,Yes
+ASS-CH-287,CH-287,2025-01-29,Autism Diagnostic Assessment,ADOS-2 Module 1,Module 1,8,1,9,moderate,DAS-II,7,14,15,Vineland-3,15,17,24,18,None,ASD with Language Impairment,Level 2,Developmental Pediatrician,Partial
+ASS-CH-288,CH-288,2025-06-12,Autism Diagnostic Assessment,ADOS-2 Module 2,Module 1,6,7,13,moderate,Bayley-4,17,47,16,Vineland-3,2,1,1,9,None,ASD (provisional),Level 2,Developmental Pediatrician,Yes
+ASS-CH-289,CH-289,2026-05-16,Autism Diagnostic Assessment,M-CHAT-R/F,Module 1,7,1,8,low,Mullen Scales,60,73,15,Vineland-3,19,13,21,19,None,Autism Spectrum Disorder,Level 1,Clinical Psychologist,Partial
+ASS-CH-290,CH-290,2025-03-19,Autism Diagnostic Assessment,ADOS-2 Module 2,Module 1,8,3,11,low,Mullen Scales,60,63,31,Vineland-3,8,11,13,22,ASRS,Autism Spectrum Disorder,Level 1,Developmental Pediatrician,Yes
+ASS-CH-291,CH-291,2025-01-04,Autism Diagnostic Assessment,ADOS-2 + DAS-II + ABAS-3,Module 2,16,4,20,high,Bayley-4,9,17,8,ABAS-3,4,8,6,11,CBCL,ASD with Language Impairment,Level 3,Autism Assessment Team,Yes
+ASS-CH-292,CH-292,2026-05-04,Autism Diagnostic Assessment,ADOS-2 Module 1,Module 1,7,4,11,moderate,DAS-II,12,12,19,Vineland-3,6,7,6,6,ASRS,ASD (provisional),Level 2,Developmental Pediatrician,Yes
+ASS-CH-293,CH-293,2025-08-07,Autism Diagnostic Assessment,ADOS-2 Module 2,Module 3,9,4,13,moderate,WPPSI-IV,16,25,18,ABAS-3,11,7,8,26,None,ASD Level 2,Level 2,Autism Assessment Team,Yes
+ASS-CH-294,CH-294,2025-10-03,Autism Diagnostic Assessment,ADOS-2 + DAS-II + ABAS-3,Module 1,13,4,17,high,DAS-II,4,4,2,ABAS-3,3,12,1,13,CBCL,ASD Level 3,Level 3,Autism Assessment Team,Partial
+ASS-CH-295,CH-295,2025-11-26,Autism Diagnostic Assessment,ADOS-2 Module 2,Module 2,12,4,16,moderate,WPPSI-IV,13,18,19,Vineland-3,4,10,8,8,ASRS,ASD (provisional),Level 2,Autism Assessment Team,Yes
+ASS-CH-296,CH-296,2025-04-12,Autism Diagnostic Assessment,M-CHAT-R/F,Module 1,7,4,11,low,DAS-II,26,15,42,ABAS-3,15,17,18,23,ASRS,ASD Level 1,Level 1,Clinical Psychologist,Partial
+ASS-CH-297,CH-297,2026-03-21,Autism Diagnostic Assessment,ADOS-2 Module 2,Module 2,4,0,4,low,Bayley-4,42,69,41,Vineland-3,22,19,13,27,CBCL,Autism Spectrum Disorder,Level 1,Autism Assessment Team,Partial
+ASS-CH-298,CH-298,2025-11-11,Autism Diagnostic Assessment,ADOS-2 Module 2,Module 2,11,4,15,moderate,DAS-II,3,31,16,Vineland-3,5,1,1,15,None,ASD (provisional),Level 2,Clinical Psychologist,Yes
+ASS-CH-299,CH-299,2026-03-26,Autism Diagnostic Assessment,ADOS-2 Module 2,Module 1,2,0,2,low,DAS-II,45,46,21,Vineland-3,5,1,12,7,CBCL,ASD Level 1,Level 1,Clinical Psychologist,Yes
+ASS-CH-300,CH-300,2026-04-08,Autism Diagnostic Assessment,ADOS-2 Module 2,Module 2,11,6,17,moderate,WPPSI-IV,13,37,9,ABAS-3,11,21,15,9,ASRS,ASD (provisional),Level 2,Autism Assessment Team,Yes
+ASS-CH-301,CH-301,2025-06-29,Autism Diagnostic Assessment,ADOS-2 + DAS-II + ABAS-3,Module 1,17,4,21,high,DAS-II,9,9,4,Vineland-3,2,1,1,1,ASRS,ASD with Intellectual Disability,Level 3,Developmental Pediatrician,Yes
+ASS-CH-302,CH-302,2026-04-29,Autism Diagnostic Assessment,M-CHAT-R/F,Module 1,13,2,15,moderate,DAS-II,5,13,4,ABAS-3,10,2,19,15,Conners-3,ASD Level 2,Level 2,Clinical Psychologist,Partial
+ASS-CH-303,CH-303,2025-03-24,Autism Diagnostic Assessment,ADOS-2 Module 3,Module 3,13,6,19,high,DAS-II,1,1,7,ABAS-3,2,1,1,7,None,ASD Level 3,Level 3,Developmental Pediatrician,Yes
+ASS-CH-304,CH-304,2026-01-27,Autism Diagnostic Assessment,ADOS-2 Module 3,Module 2,18,4,22,high,Bayley-4,4,24,5,Vineland-3,5,11,10,12,ASRS,ASD Level 3,Level 3,Autism Assessment Team,Partial
+ASS-CH-305,CH-305,2025-01-02,Autism Diagnostic Assessment,CARS-2 + Vineland-3,Module 1,11,2,13,moderate,Mullen Scales,2,30,10,ABAS-3,4,13,1,18,None,ASD (provisional),Level 2,Clinical Psychologist,Yes
+ASS-CH-306,CH-306,2025-07-01,Autism Diagnostic Assessment,CARS-2 + Vineland-3,Module 1,13,5,18,moderate,WPPSI-IV,21,32,15,Vineland-3,15,21,20,13,None,ASD with Language Impairment,Level 2,Clinical Psychologist,Partial
+ASS-CH-307,CH-307,2025-03-28,Autism Diagnostic Assessment,ADOS-2 Module 2,Module 2,11,2,13,moderate,Mullen Scales,22,5,11,Vineland-3,12,20,10,27,CBCL,ASD (provisional),Level 2,Clinical Psychologist,Yes
+ASS-CH-308,CH-308,2025-06-17,Autism Diagnostic Assessment,M-CHAT-R/F,Module 1,6,5,11,moderate,Mullen Scales,15,7,9,ABAS-3,15,8,22,16,CBCL,ASD Level 2,Level 2,Developmental Pediatrician,Yes
+ASS-CH-309,CH-309,2026-04-27,Autism Diagnostic Assessment,ADOS-2 Module 3,Module 3,2,1,3,low,WPPSI-IV,40,32,19,ABAS-3,24,24,32,29,Conners-3,ASD Level 1,Level 1,Developmental Pediatrician,Yes
+ASS-CH-310,CH-310,2026-03-03,Autism Diagnostic Assessment,ADOS-2 Module 2,Module 2,1,0,1,low,DAS-II,11,28,40,Vineland-3,29,21,28,27,None,ASD Level 1,Level 1,Developmental Pediatrician,Yes
+ASS-CH-311,CH-311,2025-06-27,Autism Diagnostic Assessment,CARS-2 + Vineland-3,Module 1,19,6,25,high,DAS-II,2,5,6,ABAS-3,2,8,1,16,ASRS,ASD with Intellectual Disability,Level 3,Autism Assessment Team,Yes
+ASS-CH-312,CH-312,2025-12-03,Autism Diagnostic Assessment,ADOS-2 Module 1,Module 2,6,0,6,low,Bayley-4,48,30,50,ABAS-3,19,9,20,20,CBCL,Autism Spectrum Disorder,Level 1,Developmental Pediatrician,Yes
+ASS-CH-313,CH-313,2025-10-06,Autism Diagnostic Assessment,ADOS-2 Module 2,Module 1,9,7,16,moderate,Mullen Scales,12,41,11,Vineland-3,9,4,5,8,Conners-3,ASD (provisional),Level 2,Clinical Psychologist,Partial
+ASS-CH-314,CH-314,2026-03-01,Autism Diagnostic Assessment,CARS-2,Module 1,17,8,25,high,WPPSI-IV,8,20,6,ABAS-3,4,10,12,11,None,ASD Level 3,Level 3,Autism Assessment Team,Partial
+ASS-CH-315,CH-315,2026-01-11,Autism Diagnostic Assessment,M-CHAT-R/F,Module 1,10,4,14,moderate,Bayley-4,25,43,16,ABAS-3,9,7,2,20,None,ASD with Language Impairment,Level 2,Clinical Psychologist,Yes
+ASS-CH-316,CH-316,2026-02-02,Autism Diagnostic Assessment,ADOS-2 + DAS-II + ABAS-3,Module 3,9,5,14,moderate,Mullen Scales,9,24,12,Vineland-3,3,5,5,8,None,ASD Level 2,Level 2,Autism Assessment Team,Partial
+ASS-CH-317,CH-317,2025-05-31,Autism Diagnostic Assessment,CARS-2 + Vineland-3,Module 1,5,2,7,low,WPPSI-IV,10,29,25,ABAS-3,21,29,23,27,CBCL,ASD Level 1,Level 1,Clinical Psychologist,Yes
+ASS-CH-318,CH-318,2025-11-11,Autism Diagnostic Assessment,M-CHAT-R/F,Module 1,6,3,9,moderate,Bayley-4,14,43,20,Vineland-3,11,17,8,24,None,Autism Spectrum Disorder,Level 2,Clinical Psychologist,Yes
+ASS-CH-319,CH-319,2026-02-26,Autism Diagnostic Assessment,ADOS-2 Module 2,Module 2,13,4,17,high,DAS-II,6,5,3,ABAS-3,5,6,4,5,Conners-3,ASD Level 3,Level 3,Autism Assessment Team,Yes
+ASS-CH-320,CH-320,2025-09-17,Autism Diagnostic Assessment,ADOS-2 Module 2,Module 3,4,5,9,moderate,Bayley-4,5,30,4,ABAS-3,4,1,8,13,None,Autism Spectrum Disorder,Level 2,Autism Assessment Team,Yes
+ASS-CH-321,CH-321,2026-02-15,Autism Diagnostic Assessment,ADOS-2 + DAS-II + ABAS-3,Module 2,11,3,14,moderate,Mullen Scales,23,44,20,Vineland-3,11,17,7,10,ASRS,ASD (provisional),Level 2,Developmental Pediatrician,Partial
+ASS-CH-322,CH-322,2025-06-21,Autism Diagnostic Assessment,ADOS-2 Module 2,Module 3,4,3,7,low,DAS-II,56,46,12,Vineland-3,32,42,31,28,Conners-3,ASD with Anxiety,Level 1,Developmental Pediatrician,Partial
+ASS-CH-323,CH-323,2026-02-11,Autism Diagnostic Assessment,M-CHAT-R/F,Module 1,4,2,6,low,Bayley-4,60,39,25,Vineland-3,5,1,8,1,CBCL,ASD with Anxiety,Level 1,Developmental Pediatrician,Yes
+ASS-CH-324,CH-324,2026-01-26,Autism Diagnostic Assessment,ADOS-2 Module 1,Module 1,6,3,9,low,Bayley-4,11,50,47,ABAS-3,34,41,29,36,None,ASD with Anxiety,Level 1,Clinical Psychologist,Yes
+ASS-CH-325,CH-325,2025-10-28,Autism Diagnostic Assessment,ADOS-2 Module 1,Module 1,11,6,17,high,Mullen Scales,8,9,2,Vineland-3,4,7,7,11,ASRS,ASD with Language Impairment,Level 3,Developmental Pediatrician,Yes
+ASS-CH-326,CH-326,2026-01-15,Autism Diagnostic Assessment,ADOS-2 Module 2,Module 3,5,1,6,low,DAS-II,52,34,14,Vineland-3,14,14,8,14,CBCL,ASD with Anxiety,Level 1,Autism Assessment Team,Yes
+ASS-CH-327,CH-327,2025-08-27,Autism Diagnostic Assessment,CARS-2 + Vineland-3,Module 1,8,7,15,moderate,Mullen Scales,21,12,17,Vineland-3,3,1,1,1,ASRS,ASD Level 2,Level 2,Clinical Psychologist,Yes
+ASS-CH-328,CH-328,2026-03-30,Autism Diagnostic Assessment,CARS-2 + Vineland-3,Module 2,9,3,12,high,Mullen Scales,10,8,6,ABAS-3,5,1,1,19,ASRS,ASD with Language Impairment,Level 3,Clinical Psychologist,Yes
+ASS-CH-329,CH-329,2025-07-22,Autism Diagnostic Assessment,CARS-2,Module 1,12,1,13,moderate,Mullen Scales,1,22,19,Vineland-3,3,1,3,1,Conners-3,ASD with Language Impairment,Level 2,Developmental Pediatrician,Yes
+ASS-CH-330,CH-330,2026-02-11,Autism Diagnostic Assessment,SCQ,Module 2,8,2,10,moderate,Mullen Scales,10,17,18,Vineland-3,5,13,9,2,CBCL,Autism Spectrum Disorder,Level 2,Developmental Pediatrician,Yes
+ASS-CH-331,CH-331,2026-03-06,Autism Diagnostic Assessment,M-CHAT-R/F,Module 1,13,5,18,moderate,DAS-II,25,41,17,ABAS-3,11,5,15,17,CBCL,ASD Level 2,Level 2,Autism Assessment Team,Yes
+ASS-CH-332,CH-332,2026-01-09,Autism Diagnostic Assessment,ADOS-2 Module 3,Module 2,6,5,11,moderate,Bayley-4,11,27,12,ABAS-3,1,1,11,8,ASRS,ASD Level 2,Level 2,Autism Assessment Team,Yes
+ASS-CH-333,CH-333,2025-09-03,Autism Diagnostic Assessment,ADOS-2 Module 1,Module 1,7,0,7,low,Bayley-4,39,52,16,ABAS-3,6,11,10,11,Conners-3,ASD with ADHD features,Level 1,Autism Assessment Team,Partial
+ASS-CH-334,CH-334,2025-05-09,Autism Diagnostic Assessment,ADOS-2 Module 2,Module 1,7,3,10,moderate,Bayley-4,22,27,8,ABAS-3,3,3,1,11,Conners-3,Autism Spectrum Disorder,Level 2,Clinical Psychologist,Yes
+ASS-CH-335,CH-335,2026-01-05,Autism Diagnostic Assessment,M-CHAT-R/F + ADOS-2,Module 1,8,4,12,low,Bayley-4,36,58,14,Vineland-3,35,31,32,30,Conners-3,Autism Spectrum Disorder,Level 1,Clinical Psychologist,Partial
+ASS-CH-336,CH-336,2025-01-16,Autism Diagnostic Assessment,M-CHAT-R/F + ADOS-2,Module 1,6,4,10,low,Bayley-4,60,68,38,ABAS-3,8,4,5,9,None,ASD with ADHD features,Level 1,Autism Assessment Team,Partial
+ASS-CH-337,CH-337,2025-08-24,Autism Diagnostic Assessment,ADOS-2 Module 1,Module 2,12,3,15,moderate,Mullen Scales,24,13,4,ABAS-3,3,1,1,15,CBCL,ASD Level 2,Level 2,Clinical Psychologist,Yes
+ASS-CH-338,CH-338,2025-11-12,Autism Diagnostic Assessment,CARS-2,Module 1,10,4,14,moderate,DAS-II,2,43,11,ABAS-3,5,1,9,6,CBCL,ASD Level 2,Level 2,Clinical Psychologist,Yes
+ASS-CH-339,CH-339,2025-09-04,Autism Diagnostic Assessment,ADOS-2 + DAS-II + ABAS-3,Module 1,12,3,15,moderate,Mullen Scales,22,9,12,ABAS-3,6,12,11,11,Conners-3,ASD (provisional),Level 2,Autism Assessment Team,Yes
+ASS-CH-340,CH-340,2025-06-27,Autism Diagnostic Assessment,ADOS-2 Module 2,Module 3,4,3,7,low,Mullen Scales,22,46,29,Vineland-3,7,1,13,21,None,ASD Level 1,Level 1,Autism Assessment Team,Yes
+ASS-CH-341,CH-341,2026-02-19,Autism Diagnostic Assessment,ADOS-2 + DAS-II + ABAS-3,Module 3,3,0,3,low,Mullen Scales,26,34,33,Vineland-3,27,33,32,39,CBCL,ASD Level 1,Level 1,Developmental Pediatrician,Yes
+ASS-CH-342,CH-342,2025-11-18,Autism Diagnostic Assessment,ADOS-2 + DAS-II + ABAS-3,Module 1,8,3,11,low,DAS-II,52,48,40,Vineland-3,32,37,36,43,None,ASD with ADHD features,Level 1,Developmental Pediatrician,Partial
+ASS-CH-343,CH-343,2025-10-15,Autism Diagnostic Assessment,CARS-2 + Vineland-3,Module 2,12,3,15,high,DAS-II,4,17,8,Vineland-3,5,6,4,7,Conners-3,ASD with Intellectual Disability,Level 3,Clinical Psychologist,Partial
+ASS-CH-344,CH-344,2025-02-24,Autism Diagnostic Assessment,ADOS-2 + DAS-II + ABAS-3,Module 2,9,4,13,high,Bayley-4,10,14,1,ABAS-3,3,1,1,8,ASRS,ASD with Intellectual Disability,Level 3,Autism Assessment Team,Yes
+ASS-CH-345,CH-345,2025-05-15,Autism Diagnostic Assessment,SCQ,Module 3,7,1,8,moderate,Bayley-4,7,13,10,Vineland-3,7,1,13,13,Conners-3,ASD (provisional),Level 2,Clinical Psychologist,Partial
+ASS-CH-346,CH-346,2025-04-11,Autism Diagnostic Assessment,CARS-2 + Vineland-3,Module 1,17,7,24,high,DAS-II,5,4,7,ABAS-3,4,5,12,14,None,ASD Level 3,Level 3,Autism Assessment Team,Partial
+ASS-CH-347,CH-347,2026-02-23,Autism Diagnostic Assessment,M-CHAT-R/F,Module 1,6,6,12,moderate,Bayley-4,16,44,13,Vineland-3,7,1,15,14,None,ASD (provisional),Level 2,Developmental Pediatrician,Partial
+ASS-CH-348,CH-348,2025-04-01,Autism Diagnostic Assessment,SCQ,Module 3,15,3,18,high,DAS-II,6,6,6,Vineland-3,3,1,1,11,ASRS,ASD Level 3,Level 3,Developmental Pediatrician,Yes
+ASS-CH-349,CH-349,2025-01-07,Autism Diagnostic Assessment,CARS-2 + Vineland-3,Module 1,9,5,14,moderate,Mullen Scales,3,29,8,ABAS-3,13,9,5,18,ASRS,ASD Level 2,Level 2,Autism Assessment Team,Yes
+ASS-CH-350,CH-350,2025-02-19,Autism Diagnostic Assessment,ADOS-2 Module 2,Module 2,4,2,6,low,Mullen Scales,52,49,31,Vineland-3,8,10,2,18,ASRS,ASD Level 1,Level 1,Autism Assessment Team,Partial
+ASS-CH-351,CH-351,2025-04-20,Autism Diagnostic Assessment,CARS-2 + Vineland-3,Module 1,10,1,11,moderate,Mullen Scales,14,10,6,Vineland-3,2,1,1,9,ASRS,ASD with Language Impairment,Level 2,Autism Assessment Team,Yes
+ASS-CH-352,CH-352,2025-11-11,Autism Diagnostic Assessment,ADOS-2 Module 2,Module 1,12,4,16,high,Bayley-4,5,11,3,ABAS-3,4,13,2,19,CBCL,ASD Level 3,Level 3,Developmental Pediatrician,Partial
+ASS-CH-353,CH-353,2025-04-02,Autism Diagnostic Assessment,ADOS-2 + DAS-II + ABAS-3,Module 3,12,4,16,high,DAS-II,5,15,7,Vineland-3,2,1,1,1,None,ASD Level 3,Level 3,Developmental Pediatrician,Yes
+ASS-CH-354,CH-354,2025-08-17,Autism Diagnostic Assessment,M-CHAT-R/F + ADOS-2,Module 1,13,6,19,high,DAS-II,8,1,8,ABAS-3,4,1,13,17,ASRS,ASD with Language Impairment,Level 3,Autism Assessment Team,Yes
+ASS-CH-355,CH-355,2025-01-11,Autism Diagnostic Assessment,CARS-2,Module 1,6,2,8,moderate,Mullen Scales,12,27,7,Vineland-3,1,4,1,1,None,ASD (provisional),Level 2,Developmental Pediatrician,Yes
+ASS-CH-356,CH-356,2025-01-20,Autism Diagnostic Assessment,ADOS-2 Module 2,Module 1,11,1,12,moderate,DAS-II,9,35,2,ABAS-3,3,5,8,9,CBCL,ASD with Language Impairment,Level 2,Clinical Psychologist,Yes
+ASS-CH-357,CH-357,2025-12-25,Autism Diagnostic Assessment,M-CHAT-R/F,Module 1,16,6,22,high,Bayley-4,9,23,6,ABAS-3,2,1,1,1,CBCL,ASD with Language Impairment,Level 3,Developmental Pediatrician,Yes
+ASS-CH-358,CH-358,2026-03-19,Autism Diagnostic Assessment,ADOS-2 Module 2,Module 2,6,4,10,moderate,Bayley-4,13,13,3,Vineland-3,4,1,1,9,None,ASD Level 2,Level 2,Autism Assessment Team,Yes
+ASS-CH-359,CH-359,2025-02-14,Autism Diagnostic Assessment,ADOS-2 Module 2,Module 2,9,2,11,moderate,Bayley-4,15,23,6,ABAS-3,1,1,1,2,ASRS,Autism Spectrum Disorder,Level 2,Developmental Pediatrician,Partial
+ASS-CH-360,CH-360,2026-04-28,Autism Diagnostic Assessment,CARS-2 + Vineland-3,Module 2,18,6,24,high,DAS-II,10,21,1,ABAS-3,2,10,1,16,None,ASD with Intellectual Disability,Level 3,Developmental Pediatrician,Partial
+ASS-CH-361,CH-361,2025-11-03,Autism Diagnostic Assessment,ADOS-2 Module 3,Module 2,8,2,10,moderate,Mullen Scales,11,21,6,Vineland-3,10,19,6,8,ASRS,ASD with Language Impairment,Level 2,Developmental Pediatrician,Yes
+ASS-CH-362,CH-362,2025-02-18,Autism Diagnostic Assessment,ADOS-2 + DAS-II + ABAS-3,Module 2,12,3,15,high,Bayley-4,10,20,2,Vineland-3,3,1,5,3,None,ASD Level 3,Level 3,Autism Assessment Team,Partial
+ASS-CH-363,CH-363,2026-02-09,Autism Diagnostic Assessment,ADOS-2 + DAS-II + ABAS-3,Module 2,8,2,10,moderate,WPPSI-IV,16,42,11,ABAS-3,5,15,8,4,CBCL,Autism Spectrum Disorder,Level 2,Developmental Pediatrician,Yes
+ASS-CH-364,CH-364,2026-01-05,Autism Diagnostic Assessment,CARS-2 + Vineland-3,Module 2,5,3,8,low,Bayley-4,56,17,47,Vineland-3,20,18,22,21,CBCL,ASD with ADHD features,Level 1,Autism Assessment Team,Partial
+ASS-CH-365,CH-365,2025-08-11,Autism Diagnostic Assessment,ADOS-2 + DAS-II + ABAS-3,Module 1,7,5,12,moderate,DAS-II,3,30,19,Vineland-3,13,18,7,19,ASRS,Autism Spectrum Disorder,Level 2,Clinical Psychologist,Yes
+ASS-CH-366,CH-366,2025-09-20,Autism Diagnostic Assessment,ADOS-2 + DAS-II + ABAS-3,Module 1,3,2,5,low,DAS-II,53,25,49,Vineland-3,19,18,24,19,Conners-3,ASD with ADHD features,Level 1,Developmental Pediatrician,Yes
+ASS-CH-367,CH-367,2025-05-16,Autism Diagnostic Assessment,ADOS-2 + DAS-II + ABAS-3,Module 3,4,2,6,moderate,DAS-II,23,18,14,ABAS-3,15,13,8,16,CBCL,ASD Level 2,Level 2,Developmental Pediatrician,Yes
+ASS-CH-368,CH-368,2025-03-23,Autism Diagnostic Assessment,ADOS-2 Module 1,Module 1,5,1,6,low,DAS-II,39,48,14,ABAS-3,14,18,9,11,Conners-3,ASD with Anxiety,Level 1,Autism Assessment Team,Yes
+ASS-CH-369,CH-369,2025-01-16,Autism Diagnostic Assessment,ADOS-2 Module 2,Module 2,6,3,9,moderate,Mullen Scales,22,45,13,Vineland-3,7,1,3,5,CBCL,ASD Level 2,Level 2,Autism Assessment Team,Yes
+ASS-CH-370,CH-370,2025-10-21,Autism Diagnostic Assessment,CARS-2 + Vineland-3,Module 1,5,1,6,low,Bayley-4,40,47,18,Vineland-3,23,24,20,33,None,ASD with Anxiety,Level 1,Clinical Psychologist,Partial
+ASS-CH-371,CH-371,2025-12-07,Autism Diagnostic Assessment,SCQ,Module 2,10,3,13,moderate,Bayley-4,1,40,8,ABAS-3,9,18,4,6,None,ASD with Language Impairment,Level 2,Clinical Psychologist,Yes
+ASS-CH-372,CH-372,2025-06-12,Autism Diagnostic Assessment,ADOS-2 Module 2,Module 2,15,6,21,high,Mullen Scales,3,25,3,ABAS-3,2,1,1,11,CBCL,ASD with Language Impairment,Level 3,Developmental Pediatrician,Yes
+ASS-CH-373,CH-373,2025-10-23,Autism Diagnostic Assessment,ADOS-2 Module 1,Module 2,6,6,12,moderate,Mullen Scales,12,47,5,ABAS-3,3,1,1,1,None,ASD (provisional),Level 2,Developmental Pediatrician,Yes
+ASS-CH-374,CH-374,2026-04-04,Autism Diagnostic Assessment,CARS-2,Module 1,9,6,15,moderate,WPPSI-IV,13,14,15,Vineland-3,12,22,9,22,Conners-3,Autism Spectrum Disorder,Level 2,Clinical Psychologist,Partial
+ASS-CH-375,CH-375,2025-10-11,Autism Diagnostic Assessment,ADOS-2 + DAS-II + ABAS-3,Module 1,2,2,4,low,Mullen Scales,17,32,44,Vineland-3,12,11,15,18,Conners-3,ASD Level 1,Level 1,Autism Assessment Team,Yes
+ASS-CH-376,CH-376,2025-10-11,Autism Diagnostic Assessment,CARS-2 + Vineland-3,Module 2,1,1,2,low,Bayley-4,60,23,28,Vineland-3,5,5,1,11,Conners-3,ASD with ADHD features,Level 1,Autism Assessment Team,Partial
+ASS-CH-377,CH-377,2026-02-16,Autism Diagnostic Assessment,ADOS-2 Module 2,Module 2,8,4,12,moderate,DAS-II,23,22,5,Vineland-3,8,3,4,15,Conners-3,ASD Level 2,Level 2,Autism Assessment Team,Yes
+ASS-CH-378,CH-378,2026-05-03,Autism Diagnostic Assessment,ADOS-2 Module 2,Module 2,5,0,5,low,Mullen Scales,23,27,35,Vineland-3,13,6,11,11,ASRS,ASD with ADHD features,Level 1,Autism Assessment Team,Yes
+ASS-CH-379,CH-379,2025-05-25,Autism Diagnostic Assessment,CARS-2 + Vineland-3,Module 1,12,3,15,moderate,Bayley-4,2,24,10,ABAS-3,3,1,8,12,Conners-3,ASD (provisional),Level 2,Developmental Pediatrician,Yes
+ASS-CH-380,CH-380,2025-10-19,Autism Diagnostic Assessment,M-CHAT-R/F,Module 1,8,2,10,low,DAS-II,25,28,23,Vineland-3,23,29,20,19,CBCL,ASD with Anxiety,Level 1,Clinical Psychologist,Yes
+ASS-CH-381,CH-381,2026-02-03,Autism Diagnostic Assessment,ADOS-2 + DAS-II + ABAS-3,Module 2,5,1,6,low,Mullen Scales,35,24,46,ABAS-3,35,28,37,37,Conners-3,ASD with Anxiety,Level 1,Developmental Pediatrician,Yes
+ASS-CH-382,CH-382,2025-05-29,Autism Diagnostic Assessment,SCQ,Module 3,5,5,10,moderate,DAS-II,8,37,3,Vineland-3,3,3,10,16,CBCL,ASD Level 2,Level 2,Autism Assessment Team,Partial
+ASS-CH-383,CH-383,2026-04-03,Autism Diagnostic Assessment,M-CHAT-R/F,Module 1,12,2,14,moderate,Bayley-4,14,35,11,Vineland-3,5,5,1,7,Conners-3,ASD (provisional),Level 2,Autism Assessment Team,Partial
+ASS-CH-384,CH-384,2025-04-08,Autism Diagnostic Assessment,CARS-2 + Vineland-3,Module 1,14,5,19,moderate,WPPSI-IV,6,34,8,Vineland-3,14,6,18,13,ASRS,Autism Spectrum Disorder,Level 2,Autism Assessment Team,Yes
+ASS-CH-385,CH-385,2025-09-29,Autism Diagnostic Assessment,ADOS-2 + DAS-II + ABAS-3,Module 2,11,4,15,high,WPPSI-IV,9,21,6,Vineland-3,3,5,8,16,CBCL,ASD with Language Impairment,Level 3,Autism Assessment Team,Yes
+ASS-CH-386,CH-386,2026-02-14,Autism Diagnostic Assessment,ADOS-2 + DAS-II + ABAS-3,Module 2,11,3,14,high,Bayley-4,9,7,4,Vineland-3,4,13,8,16,ASRS,ASD Level 3,Level 3,Autism Assessment Team,Partial
+ASS-CH-387,CH-387,2026-04-10,Autism Diagnostic Assessment,ADOS-2 + DAS-II + ABAS-3,Module 3,9,1,10,moderate,DAS-II,20,26,4,Vineland-3,10,19,8,23,None,ASD Level 2,Level 2,Developmental Pediatrician,Partial
+ASS-CH-388,CH-388,2025-08-29,Autism Diagnostic Assessment,ADOS-2 Module 2,Module 1,2,4,6,low,Bayley-4,49,20,19,ABAS-3,23,27,29,38,None,Autism Spectrum Disorder,Level 1,Clinical Psychologist,Yes
+ASS-CH-389,CH-389,2026-05-16,Autism Diagnostic Assessment,M-CHAT-R/F + ADOS-2,Module 1,13,2,15,moderate,WPPSI-IV,20,23,4,ABAS-3,5,14,10,13,None,Autism Spectrum Disorder,Level 2,Developmental Pediatrician,Yes
+ASS-CH-390,CH-390,2025-07-21,Autism Diagnostic Assessment,ADOS-2 + DAS-II + ABAS-3,Module 2,3,1,4,low,Mullen Scales,14,62,38,ABAS-3,5,7,6,17,None,ASD with ADHD features,Level 1,Developmental Pediatrician,Yes
+ASS-CH-391,CH-391,2025-08-15,Autism Diagnostic Assessment,ADOS-2 Module 1,Module 2,14,5,19,high,Bayley-4,7,17,6,ABAS-3,2,9,5,2,None,ASD with Intellectual Disability,Level 3,Clinical Psychologist,Yes
+ASS-CH-392,CH-392,2026-01-31,Autism Diagnostic Assessment,ADOS-2 Module 1,Module 1,5,3,8,low,DAS-II,12,48,44,Vineland-3,34,28,33,34,Conners-3,ASD with ADHD features,Level 1,Clinical Psychologist,Yes
+ASS-CH-393,CH-393,2026-02-01,Autism Diagnostic Assessment,ADOS-2 Module 2,Module 3,13,4,17,high,WPPSI-IV,6,5,8,ABAS-3,5,1,11,20,CBCL,ASD Level 3,Level 3,Autism Assessment Team,Yes
+ASS-CH-394,CH-394,2025-02-05,Autism Diagnostic Assessment,ADOS-2 + DAS-II + ABAS-3,Module 1,9,2,11,moderate,Bayley-4,19,36,10,ABAS-3,12,22,17,23,ASRS,Autism Spectrum Disorder,Level 2,Developmental Pediatrician,Yes
+ASS-CH-395,CH-395,2025-02-28,Autism Diagnostic Assessment,ADOS-2 Module 1,Module 1,5,3,8,low,DAS-II,12,51,18,ABAS-3,15,9,11,19,CBCL,ASD with Anxiety,Level 1,Autism Assessment Team,Partial
+ASS-CH-396,CH-396,2025-02-27,Autism Diagnostic Assessment,ADOS-2 + DAS-II + ABAS-3,Module 3,12,3,15,high,Mullen Scales,1,7,1,Vineland-3,4,6,4,17,Conners-3,ASD with Language Impairment,Level 3,Autism Assessment Team,Yes
+ASS-CH-397,CH-397,2026-02-23,Autism Diagnostic Assessment,CARS-2,Module 3,2,3,5,low,WPPSI-IV,14,38,38,Vineland-3,9,6,1,5,Conners-3,Autism Spectrum Disorder,Level 1,Autism Assessment Team,Partial
+ASS-CH-398,CH-398,2025-04-25,Autism Diagnostic Assessment,ADOS-2 Module 1,Module 1,7,4,11,low,DAS-II,21,65,26,ABAS-3,23,33,27,23,CBCL,ASD with Anxiety,Level 1,Developmental Pediatrician,Yes
+ASS-CH-399,CH-399,2026-03-25,Autism Diagnostic Assessment,ADOS-2 + DAS-II + ABAS-3,Module 2,10,6,16,high,Bayley-4,7,23,6,Vineland-3,4,13,11,19,Conners-3,ASD with Language Impairment,Level 3,Developmental Pediatrician,Yes
+ASS-CH-400,CH-400,2026-03-19,Autism Diagnostic Assessment,ADOS-2 + DAS-II + ABAS-3,Module 3,13,6,19,high,WPPSI-IV,4,23,3,Vineland-3,3,1,5,9,None,ASD with Language Impairment,Level 3,Developmental Pediatrician,Partial
+ASS-CH-401,CH-401,2025-05-14,Autism Diagnostic Assessment,ADOS-2 + DAS-II + ABAS-3,Module 2,6,3,9,moderate,DAS-II,6,5,12,ABAS-3,13,14,20,14,None,ASD (provisional),Level 2,Developmental Pediatrician,Yes
+ASS-CH-402,CH-402,2026-05-16,Autism Diagnostic Assessment,CARS-2 + Vineland-3,Module 2,10,3,13,moderate,DAS-II,18,25,4,Vineland-3,11,16,19,23,Conners-3,ASD Level 2,Level 2,Autism Assessment Team,Partial
+ASS-CH-403,CH-403,2026-04-10,Autism Diagnostic Assessment,M-CHAT-R/F,Module 1,8,0,8,low,WPPSI-IV,60,24,31,Vineland-3,17,13,27,30,ASRS,ASD Level 1,Level 1,Developmental Pediatrician,Yes
+ASS-CH-404,CH-404,2025-10-18,Autism Diagnostic Assessment,ADOS-2 Module 1,Module 1,5,4,9,low,Mullen Scales,44,68,42,ABAS-3,7,7,3,6,None,ASD with ADHD features,Level 1,Developmental Pediatrician,Yes
+ASS-CH-405,CH-405,2025-01-15,Autism Diagnostic Assessment,ADOS-2 Module 2,Module 2,6,1,7,low,DAS-II,17,51,31,ABAS-3,31,35,21,38,None,Autism Spectrum Disorder,Level 1,Developmental Pediatrician,Yes
+ASS-CH-406,CH-406,2025-12-16,Autism Diagnostic Assessment,ADOS-2 Module 2,Module 1,16,8,24,high,Mullen Scales,10,6,1,ABAS-3,5,6,12,5,None,ASD Level 3,Level 3,Clinical Psychologist,Yes
+ASS-CH-407,CH-407,2025-06-22,Autism Diagnostic Assessment,M-CHAT-R/F + ADOS-2,Module 1,16,4,20,high,Mullen Scales,3,20,2,ABAS-3,4,10,4,12,ASRS,ASD Level 3,Level 3,Clinical Psychologist,Yes
+ASS-CH-408,CH-408,2025-10-19,Autism Diagnostic Assessment,ADOS-2 Module 1,Module 1,2,4,6,low,Bayley-4,44,55,17,Vineland-3,32,42,23,37,None,ASD Level 1,Level 1,Clinical Psychologist,Partial
+ASS-CH-409,CH-409,2025-06-20,Autism Diagnostic Assessment,ADOS-2 + DAS-II + ABAS-3,Module 1,5,1,6,low,DAS-II,55,47,47,ABAS-3,13,20,19,12,CBCL,ASD Level 1,Level 1,Autism Assessment Team,Partial
+ASS-CH-410,CH-410,2025-08-29,Autism Diagnostic Assessment,ADOS-2 + DAS-II + ABAS-3,Module 1,7,2,9,low,Bayley-4,39,21,30,ABAS-3,21,11,23,21,ASRS,ASD with ADHD features,Level 1,Autism Assessment Team,Yes
+ASS-CH-411,CH-411,2025-01-20,Autism Diagnostic Assessment,ADOS-2 Module 1,Module 1,6,2,8,low,Mullen Scales,39,34,34,ABAS-3,22,31,20,34,None,Autism Spectrum Disorder,Level 1,Developmental Pediatrician,Yes
+ASS-CH-412,CH-412,2025-01-20,Autism Diagnostic Assessment,ADOS-2 + DAS-II + ABAS-3,Module 2,14,4,18,high,Bayley-4,5,14,7,Vineland-3,2,1,7,2,CBCL,ASD with Intellectual Disability,Level 3,Clinical Psychologist,Partial
+ASS-CH-413,CH-413,2025-05-26,Autism Diagnostic Assessment,CARS-2,Module 1,16,8,24,high,DAS-II,3,21,5,Vineland-3,2,3,1,1,ASRS,ASD with Intellectual Disability,Level 3,Developmental Pediatrician,Partial
+ASS-CH-414,CH-414,2025-06-18,Autism Diagnostic Assessment,ADOS-2 + DAS-II + ABAS-3,Module 2,5,3,8,low,WPPSI-IV,16,57,15,Vineland-3,18,9,23,23,ASRS,Autism Spectrum Disorder,Level 1,Clinical Psychologist,Yes
+ASS-CH-415,CH-415,2025-08-27,Autism Diagnostic Assessment,ADOS-2 Module 2,Module 1,17,5,22,high,Bayley-4,8,21,8,Vineland-3,5,1,1,15,ASRS,ASD Level 3,Level 3,Clinical Psychologist,Partial
+ASS-CH-416,CH-416,2026-02-26,Autism Diagnostic Assessment,ADOS-2 Module 2,Module 2,6,5,11,moderate,DAS-II,7,39,14,ABAS-3,5,3,12,1,CBCL,ASD (provisional),Level 2,Developmental Pediatrician,Yes
+ASS-CH-417,CH-417,2026-04-03,Autism Diagnostic Assessment,ADOS-2 + DAS-II + ABAS-3,Module 1,2,4,6,low,WPPSI-IV,20,20,16,Vineland-3,9,1,19,11,None,Autism Spectrum Disorder,Level 1,Clinical Psychologist,Yes
+ASS-CH-418,CH-418,2025-06-05,Autism Diagnostic Assessment,CARS-2,Module 2,3,0,3,low,WPPSI-IV,25,16,15,Vineland-3,13,20,6,21,Conners-3,ASD with ADHD features,Level 1,Autism Assessment Team,Yes
+ASS-CH-419,CH-419,2025-07-22,Autism Diagnostic Assessment,ADOS-2 Module 1,Module 2,6,2,8,moderate,DAS-II,2,39,17,ABAS-3,2,1,1,15,ASRS,Autism Spectrum Disorder,Level 2,Autism Assessment Team,Yes
+ASS-CH-420,CH-420,2025-01-25,Autism Diagnostic Assessment,M-CHAT-R/F + ADOS-2,Module 1,9,4,13,moderate,DAS-II,24,19,3,ABAS-3,4,1,1,11,ASRS,Autism Spectrum Disorder,Level 2,Autism Assessment Team,Yes
+ASS-CH-421,CH-421,2026-02-03,Autism Diagnostic Assessment,CARS-2 + Vineland-3,Module 2,2,1,3,low,Bayley-4,45,52,15,Vineland-3,20,27,16,15,CBCL,ASD with ADHD features,Level 1,Developmental Pediatrician,Yes
+ASS-CH-422,CH-422,2025-12-27,Autism Diagnostic Assessment,ADOS-2 Module 1,Module 1,3,2,5,low,Bayley-4,55,67,13,ABAS-3,21,30,24,18,CBCL,ASD with Anxiety,Level 1,Autism Assessment Team,Yes
+ASS-CH-423,CH-423,2025-01-18,Autism Diagnostic Assessment,CARS-2,Module 3,8,5,13,high,Bayley-4,2,4,2,ABAS-3,4,7,12,14,Conners-3,ASD Level 3,Level 3,Autism Assessment Team,Yes
+ASS-CH-424,CH-424,2025-01-15,Autism Diagnostic Assessment,CARS-2 + Vineland-3,Module 1,11,7,18,moderate,Bayley-4,3,17,13,ABAS-3,8,12,9,19,None,ASD (provisional),Level 2,Clinical Psychologist,Yes
+ASS-CH-425,CH-425,2025-11-21,Autism Diagnostic Assessment,ADOS-2 Module 1,Module 1,7,3,10,moderate,WPPSI-IV,22,23,16,Vineland-3,14,23,11,10,Conners-3,ASD (provisional),Level 2,Autism Assessment Team,Partial
+ASS-CH-426,CH-426,2025-04-12,Autism Diagnostic Assessment,ADOS-2 Module 1,Module 1,13,7,20,moderate,WPPSI-IV,2,37,8,Vineland-3,10,4,16,7,ASRS,ASD (provisional),Level 2,Developmental Pediatrician,Yes
+ASS-CH-427,CH-427,2025-12-29,Autism Diagnostic Assessment,M-CHAT-R/F + ADOS-2,Module 1,12,3,15,moderate,DAS-II,1,10,18,Vineland-3,11,9,10,21,None,ASD Level 2,Level 2,Autism Assessment Team,Yes
+ASS-CH-428,CH-428,2025-10-17,Autism Diagnostic Assessment,ADOS-2 + DAS-II + ABAS-3,Module 3,4,2,6,low,Bayley-4,59,62,21,ABAS-3,8,2,13,23,None,ASD Level 1,Level 1,Autism Assessment Team,Yes
+ASS-CH-429,CH-429,2025-11-30,Autism Diagnostic Assessment,ADOS-2 + DAS-II + ABAS-3,Module 2,11,3,14,high,WPPSI-IV,10,25,8,ABAS-3,4,1,1,9,CBCL,ASD Level 3,Level 3,Developmental Pediatrician,Yes
+ASS-CH-430,CH-430,2025-06-05,Autism Diagnostic Assessment,M-CHAT-R/F,Module 1,19,5,24,high,DAS-II,3,8,5,ABAS-3,2,1,1,13,CBCL,ASD Level 3,Level 3,Developmental Pediatrician,Yes
+ASS-CH-431,CH-431,2025-11-26,Autism Diagnostic Assessment,ADOS-2 + DAS-II + ABAS-3,Module 2,6,3,9,low,Mullen Scales,36,37,27,ABAS-3,22,17,30,22,CBCL,ASD with ADHD features,Level 1,Autism Assessment Team,Partial
+ASS-CH-432,CH-432,2025-05-02,Autism Diagnostic Assessment,M-CHAT-R/F + ADOS-2,Module 1,13,5,18,moderate,WPPSI-IV,18,9,15,Vineland-3,15,7,7,28,Conners-3,ASD with Language Impairment,Level 2,Autism Assessment Team,Partial
+ASS-CH-433,CH-433,2025-04-23,Autism Diagnostic Assessment,ADOS-2 Module 3,Module 2,12,7,19,high,Bayley-4,9,24,6,ABAS-3,3,2,1,3,None,ASD with Intellectual Disability,Level 3,Clinical Psychologist,Yes
+ASS-CH-434,CH-434,2025-09-02,Autism Diagnostic Assessment,CARS-2,Module 1,7,7,14,moderate,WPPSI-IV,25,30,3,ABAS-3,3,5,11,1,ASRS,ASD (provisional),Level 2,Clinical Psychologist,Yes
+ASS-CH-435,CH-435,2025-12-18,Autism Diagnostic Assessment,M-CHAT-R/F + ADOS-2,Module 1,12,1,13,moderate,Mullen Scales,24,36,9,ABAS-3,10,1,13,23,Conners-3,ASD Level 2,Level 2,Developmental Pediatrician,Yes
+ASS-CH-436,CH-436,2026-01-23,Autism Diagnostic Assessment,CARS-2 + Vineland-3,Module 1,8,3,11,low,Bayley-4,30,74,18,ABAS-3,5,9,1,10,CBCL,Autism Spectrum Disorder,Level 1,Autism Assessment Team,Yes
+ASS-CH-437,CH-437,2026-04-25,Autism Diagnostic Assessment,ADOS-2 Module 3,Module 2,14,7,21,high,WPPSI-IV,2,5,7,Vineland-3,1,7,8,1,CBCL,ASD with Language Impairment,Level 3,Clinical Psychologist,Partial
+ASS-CH-438,CH-438,2025-03-20,Autism Diagnostic Assessment,ADOS-2 + DAS-II + ABAS-3,Module 1,5,2,7,low,Bayley-4,30,75,22,ABAS-3,13,13,8,26,None,ASD with ADHD features,Level 1,Autism Assessment Team,Partial
+ASS-CH-439,CH-439,2026-02-22,Autism Diagnostic Assessment,ADOS-2 Module 3,Module 2,12,6,18,high,WPPSI-IV,9,5,7,Vineland-3,3,1,3,1,CBCL,ASD with Language Impairment,Level 3,Developmental Pediatrician,Partial
+ASS-CH-440,CH-440,2025-05-03,Autism Diagnostic Assessment,M-CHAT-R/F,Module 1,13,7,20,moderate,DAS-II,6,43,14,Vineland-3,7,9,1,6,ASRS,ASD (provisional),Level 2,Autism Assessment Team,Yes
+ASS-CH-441,CH-441,2025-11-10,Autism Diagnostic Assessment,CARS-2,Module 3,8,3,11,high,Mullen Scales,1,12,2,Vineland-3,3,1,1,16,CBCL,ASD with Language Impairment,Level 3,Autism Assessment Team,Yes
+ASS-CH-442,CH-442,2025-03-06,Autism Diagnostic Assessment,ADOS-2 Module 3,Module 2,2,1,3,low,WPPSI-IV,54,32,48,Vineland-3,15,20,7,27,None,ASD with ADHD features,Level 1,Autism Assessment Team,Yes
+ASS-CH-443,CH-443,2025-05-11,Autism Diagnostic Assessment,ADOS-2 + DAS-II + ABAS-3,Module 1,13,2,15,moderate,DAS-II,22,19,16,Vineland-3,12,4,8,7,None,Autism Spectrum Disorder,Level 2,Developmental Pediatrician,Yes
+ASS-CH-444,CH-444,2025-08-05,Autism Diagnostic Assessment,ADOS-2 Module 1,Module 2,5,2,7,low,Mullen Scales,38,50,14,ABAS-3,16,22,16,30,None,ASD Level 1,Level 1,Clinical Psychologist,Partial
+ASS-CH-445,CH-445,2025-11-12,Autism Diagnostic Assessment,ADOS-2 Module 2,Module 2,14,7,21,high,Bayley-4,7,19,6,Vineland-3,3,1,1,12,ASRS,ASD with Language Impairment,Level 3,Clinical Psychologist,Yes
+ASS-CH-446,CH-446,2025-04-29,Autism Diagnostic Assessment,CARS-2,Module 1,10,2,12,moderate,Bayley-4,11,8,15,ABAS-3,3,9,13,17,Conners-3,ASD (provisional),Level 2,Developmental Pediatrician,Partial
+ASS-CH-447,CH-447,2025-06-11,Autism Diagnostic Assessment,ADOS-2 Module 1,Module 1,17,5,22,high,Bayley-4,1,1,3,Vineland-3,1,8,4,4,CBCL,ASD with Language Impairment,Level 3,Developmental Pediatrician,Yes
+ASS-CH-448,CH-448,2025-08-27,Autism Diagnostic Assessment,ADOS-2 Module 1,Module 2,7,4,11,moderate,Mullen Scales,24,12,10,ABAS-3,1,1,3,5,CBCL,Autism Spectrum Disorder,Level 2,Autism Assessment Team,Yes
+ASS-CH-449,CH-449,2025-07-07,Autism Diagnostic Assessment,M-CHAT-R/F,Module 1,11,4,15,moderate,Bayley-4,13,33,11,Vineland-3,1,1,1,1,Conners-3,ASD with Language Impairment,Level 2,Autism Assessment Team,Yes
+ASS-CH-450,CH-450,2026-03-01,Autism Diagnostic Assessment,M-CHAT-R/F + ADOS-2,Module 1,20,8,28,high,WPPSI-IV,4,9,8,ABAS-3,1,1,1,1,Conners-3,ASD with Language Impairment,Level 3,Developmental Pediatrician,Partial
+ASS-CH-451,CH-451,2026-04-04,Autism Diagnostic Assessment,M-CHAT-R/F,Module 1,7,2,9,moderate,DAS-II,15,9,8,ABAS-3,14,23,5,20,ASRS,ASD Level 2,Level 2,Developmental Pediatrician,Partial
+ASS-CH-452,CH-452,2025-11-18,Autism Diagnostic Assessment,ADOS-2 Module 2,Module 1,8,3,11,low,Bayley-4,26,60,10,ABAS-3,22,18,19,29,Conners-3,Autism Spectrum Disorder,Level 1,Developmental Pediatrician,Partial
+ASS-CH-453,CH-453,2025-10-21,Autism Diagnostic Assessment,CARS-2,Module 1,3,0,3,low,WPPSI-IV,32,67,35,ABAS-3,8,12,4,15,Conners-3,Autism Spectrum Disorder,Level 1,Autism Assessment Team,Yes
+ASS-CH-454,CH-454,2025-08-22,Autism Diagnostic Assessment,ADOS-2 + DAS-II + ABAS-3,Module 2,5,1,6,moderate,Bayley-4,5,17,11,ABAS-3,15,18,11,21,Conners-3,ASD (provisional),Level 2,Autism Assessment Team,Partial
+ASS-CH-455,CH-455,2025-11-28,Autism Diagnostic Assessment,CARS-2 + Vineland-3,Module 1,14,3,17,moderate,Bayley-4,2,19,7,ABAS-3,3,10,2,5,CBCL,Autism Spectrum Disorder,Level 2,Developmental Pediatrician,Yes
+ASS-CH-456,CH-456,2025-05-27,Autism Diagnostic Assessment,ADOS-2 Module 2,Module 3,2,1,3,low,Mullen Scales,30,63,42,Vineland-3,28,20,31,31,Conners-3,ASD with ADHD features,Level 1,Autism Assessment Team,Partial
+ASS-CH-457,CH-457,2026-01-19,Autism Diagnostic Assessment,M-CHAT-R/F,Module 1,20,7,27,high,Mullen Scales,1,23,3,ABAS-3,2,12,1,9,None,ASD with Intellectual Disability,Level 3,Autism Assessment Team,Yes
+ASS-CH-458,CH-458,2025-07-17,Autism Diagnostic Assessment,ADOS-2 + DAS-II + ABAS-3,Module 3,5,1,6,low,DAS-II,30,50,21,Vineland-3,33,29,43,36,CBCL,ASD Level 1,Level 1,Developmental Pediatrician,Yes
+ASS-CH-459,CH-459,2026-01-29,Autism Diagnostic Assessment,SCQ,Module 3,5,0,5,low,WPPSI-IV,47,40,46,Vineland-3,33,28,43,35,ASRS,ASD Level 1,Level 1,Clinical Psychologist,Yes
+ASS-CH-460,CH-460,2025-11-14,Autism Diagnostic Assessment,ADOS-2 Module 1,Module 1,8,0,8,low,WPPSI-IV,45,57,28,ABAS-3,25,34,34,21,CBCL,ASD Level 1,Level 1,Developmental Pediatrician,Yes
+ASS-CH-461,CH-461,2026-04-25,Autism Diagnostic Assessment,M-CHAT-R/F,Module 1,18,4,22,high,DAS-II,4,1,8,Vineland-3,3,10,5,1,ASRS,ASD with Language Impairment,Level 3,Clinical Psychologist,Yes
+ASS-CH-462,CH-462,2025-04-10,Autism Diagnostic Assessment,M-CHAT-R/F,Module 1,7,1,8,moderate,Mullen Scales,1,14,3,ABAS-3,7,15,7,18,None,ASD (provisional),Level 2,Autism Assessment Team,Yes
+ASS-CH-463,CH-463,2026-04-12,Autism Diagnostic Assessment,ADOS-2 Module 1,Module 1,17,8,25,high,Mullen Scales,7,25,3,Vineland-3,1,10,6,1,CBCL,ASD with Language Impairment,Level 3,Clinical Psychologist,Partial
+ASS-CH-464,CH-464,2026-01-02,Autism Diagnostic Assessment,ADOS-2 Module 2,Module 2,6,1,7,low,DAS-II,45,30,48,ABAS-3,20,18,30,31,None,ASD Level 1,Level 1,Clinical Psychologist,Partial
+ASS-CH-465,CH-465,2025-06-04,Autism Diagnostic Assessment,ADOS-2 Module 1,Module 1,19,4,23,high,DAS-II,4,4,3,ABAS-3,3,1,9,16,ASRS,ASD with Language Impairment,Level 3,Developmental Pediatrician,Yes
+ASS-CH-466,CH-466,2025-03-26,Autism Diagnostic Assessment,ADOS-2 Module 2,Module 1,19,6,25,high,DAS-II,1,12,3,Vineland-3,3,1,4,18,Conners-3,ASD with Language Impairment,Level 3,Clinical Psychologist,Yes
+ASS-CH-467,CH-467,2026-05-14,Autism Diagnostic Assessment,ADOS-2 + DAS-II + ABAS-3,Module 1,20,8,28,high,Mullen Scales,10,20,6,ABAS-3,3,3,1,3,Conners-3,ASD Level 3,Level 3,Developmental Pediatrician,Partial
+ASS-CH-468,CH-468,2025-05-28,Autism Diagnostic Assessment,ADOS-2 + DAS-II + ABAS-3,Module 2,4,0,4,low,Bayley-4,56,50,30,ABAS-3,24,19,34,34,CBCL,ASD Level 1,Level 1,Autism Assessment Team,Yes
+ASS-CH-469,CH-469,2025-03-08,Autism Diagnostic Assessment,ADOS-2 Module 2,Module 2,9,7,16,high,DAS-II,4,9,5,Vineland-3,1,10,2,12,CBCL,ASD with Intellectual Disability,Level 3,Autism Assessment Team,Yes
+ASS-CH-470,CH-470,2026-01-13,Autism Diagnostic Assessment,SCQ,Module 3,11,3,14,moderate,DAS-II,20,28,13,ABAS-3,5,9,1,16,None,ASD (provisional),Level 2,Developmental Pediatrician,Yes
+ASS-CH-471,CH-471,2026-03-09,Autism Diagnostic Assessment,ADOS-2 + DAS-II + ABAS-3,Module 2,1,1,2,low,WPPSI-IV,12,47,21,ABAS-3,6,1,1,9,None,Autism Spectrum Disorder,Level 1,Developmental Pediatrician,Yes
+ASS-CH-472,CH-472,2026-04-21,Autism Diagnostic Assessment,CARS-2 + Vineland-3,Module 1,2,2,4,low,Mullen Scales,17,66,15,Vineland-3,21,23,27,18,None,ASD with ADHD features,Level 1,Autism Assessment Team,Yes
+ASS-CH-473,CH-473,2025-05-19,Autism Diagnostic Assessment,SCQ,Module 3,5,1,6,low,WPPSI-IV,17,26,20,Vineland-3,10,13,4,16,Conners-3,Autism Spectrum Disorder,Level 1,Autism Assessment Team,Yes
+ASS-CH-474,CH-474,2025-06-27,Autism Diagnostic Assessment,ADOS-2 Module 1,Module 1,14,5,19,moderate,Bayley-4,12,38,12,Vineland-3,9,9,18,12,ASRS,Autism Spectrum Disorder,Level 2,Developmental Pediatrician,Yes
+ASS-CH-475,CH-475,2025-05-14,Autism Diagnostic Assessment,ADOS-2 Module 2,Module 2,13,6,19,high,Mullen Scales,1,13,3,ABAS-3,4,10,14,11,None,ASD Level 3,Level 3,Clinical Psychologist,Yes
+ASS-CH-476,CH-476,2026-04-17,Autism Diagnostic Assessment,M-CHAT-R/F + ADOS-2,Module 1,13,1,14,moderate,Bayley-4,16,45,12,ABAS-3,12,7,3,11,CBCL,ASD with Language Impairment,Level 2,Autism Assessment Team,Yes
+ASS-CH-477,CH-477,2025-04-10,Autism Diagnostic Assessment,ADOS-2 Module 1,Module 1,17,8,25,high,WPPSI-IV,1,22,4,ABAS-3,3,1,1,9,Conners-3,ASD with Language Impairment,Level 3,Autism Assessment Team,Partial
+ASS-CH-478,CH-478,2025-04-27,Autism Diagnostic Assessment,ADOS-2 Module 2,Module 2,10,6,16,moderate,WPPSI-IV,8,37,11,ABAS-3,6,6,8,21,Conners-3,Autism Spectrum Disorder,Level 2,Developmental Pediatrician,Yes
+ASS-CH-479,CH-479,2026-04-23,Autism Diagnostic Assessment,ADOS-2 Module 2,Module 2,1,2,3,low,Bayley-4,35,63,43,Vineland-3,29,30,20,31,CBCL,ASD Level 1,Level 1,Clinical Psychologist,Yes
+ASS-CH-480,CH-480,2025-09-10,Autism Diagnostic Assessment,ADOS-2 Module 1,Module 2,9,2,11,moderate,WPPSI-IV,21,16,4,ABAS-3,13,16,17,15,Conners-3,ASD (provisional),Level 2,Autism Assessment Team,Yes
+ASS-CH-481,CH-481,2026-03-29,Autism Diagnostic Assessment,ADOS-2 Module 2,Module 2,18,5,23,high,Bayley-4,2,9,5,Vineland-3,2,8,1,10,ASRS,ASD with Language Impairment,Level 3,Clinical Psychologist,Yes
+ASS-CH-482,CH-482,2026-04-09,Autism Diagnostic Assessment,ADOS-2 Module 3,Module 2,8,3,11,moderate,Bayley-4,6,5,17,Vineland-3,7,7,1,10,ASRS,Autism Spectrum Disorder,Level 2,Clinical Psychologist,Yes
+ASS-CH-483,CH-483,2025-08-07,Autism Diagnostic Assessment,ADOS-2 Module 3,Module 2,13,5,18,high,WPPSI-IV,1,1,4,ABAS-3,2,1,4,1,None,ASD with Intellectual Disability,Level 3,Clinical Psychologist,Yes
+ASS-CH-484,CH-484,2025-05-30,Autism Diagnostic Assessment,M-CHAT-R/F,Module 1,12,4,16,moderate,WPPSI-IV,9,23,11,Vineland-3,2,1,1,1,Conners-3,ASD with Language Impairment,Level 2,Developmental Pediatrician,Yes
+ASS-CH-485,CH-485,2025-06-04,Autism Diagnostic Assessment,SCQ,Module 3,9,2,11,moderate,Mullen Scales,6,42,14,ABAS-3,12,2,17,8,CBCL,ASD with Language Impairment,Level 2,Autism Assessment Team,Yes
+ASS-CH-486,CH-486,2025-02-23,Autism Diagnostic Assessment,ADOS-2 Module 1,Module 1,2,3,5,low,DAS-II,33,48,23,Vineland-3,34,26,40,42,None,ASD with ADHD features,Level 1,Developmental Pediatrician,Partial
+ASS-CH-487,CH-487,2025-04-21,Autism Diagnostic Assessment,CARS-2 + Vineland-3,Module 1,8,0,8,low,DAS-II,56,17,44,Vineland-3,17,20,20,21,None,ASD Level 1,Level 1,Clinical Psychologist,Yes
+ASS-CH-488,CH-488,2026-03-05,Autism Diagnostic Assessment,ADOS-2 Module 2,Module 2,3,1,4,low,WPPSI-IV,23,48,40,Vineland-3,22,19,25,24,CBCL,ASD Level 1,Level 1,Clinical Psychologist,Yes
+ASS-CH-489,CH-489,2025-11-24,Autism Diagnostic Assessment,ADOS-2 Module 1,Module 1,12,2,14,moderate,DAS-II,10,35,16,ABAS-3,1,1,1,9,None,ASD with Language Impairment,Level 2,Developmental Pediatrician,Yes
+ASS-CH-490,CH-490,2026-05-13,Autism Diagnostic Assessment,ADOS-2 Module 1,Module 1,10,2,12,moderate,WPPSI-IV,13,40,16,ABAS-3,14,24,21,23,Conners-3,ASD with Language Impairment,Level 2,Developmental Pediatrician,Yes
+ASS-CH-491,CH-491,2025-01-24,Autism Diagnostic Assessment,SCQ,Module 3,16,3,19,high,WPPSI-IV,4,17,4,Vineland-3,3,5,1,1,Conners-3,ASD with Intellectual Disability,Level 3,Autism Assessment Team,Yes
+ASS-CH-492,CH-492,2025-08-13,Autism Diagnostic Assessment,CARS-2 + Vineland-3,Module 1,13,6,19,high,WPPSI-IV,3,19,2,ABAS-3,1,1,1,2,ASRS,ASD with Intellectual Disability,Level 3,Developmental Pediatrician,Yes
+ASS-CH-493,CH-493,2025-03-03,Autism Diagnostic Assessment,ADOS-2 Module 1,Module 1,11,4,15,moderate,Bayley-4,15,24,10,Vineland-3,10,4,1,8,None,Autism Spectrum Disorder,Level 2,Autism Assessment Team,Yes
+ASS-CH-494,CH-494,2026-04-13,Autism Diagnostic Assessment,ADOS-2 Module 3,Module 3,4,2,6,moderate,Mullen Scales,12,22,8,Vineland-3,8,5,18,14,CBCL,ASD Level 2,Level 2,Clinical Psychologist,Partial
+ASS-CH-495,CH-495,2025-06-17,Autism Diagnostic Assessment,ADOS-2 Module 2,Module 2,3,1,4,low,Bayley-4,50,32,10,ABAS-3,10,5,1,6,ASRS,Autism Spectrum Disorder,Level 1,Developmental Pediatrician,Yes
+ASS-CH-496,CH-496,2025-09-22,Autism Diagnostic Assessment,CARS-2 + Vineland-3,Module 2,16,5,21,high,Bayley-4,8,21,6,Vineland-3,4,1,12,8,None,ASD with Language Impairment,Level 3,Autism Assessment Team,Yes
+ASS-CH-497,CH-497,2025-05-22,Autism Diagnostic Assessment,CARS-2,Module 3,15,6,21,high,Mullen Scales,4,20,3,Vineland-3,1,5,8,1,ASRS,ASD with Intellectual Disability,Level 3,Autism Assessment Team,Yes
+ASS-CH-498,CH-498,2025-06-23,Autism Diagnostic Assessment,ADOS-2 + DAS-II + ABAS-3,Module 1,14,2,16,moderate,Bayley-4,12,34,19,ABAS-3,1,1,10,8,ASRS,ASD (provisional),Level 2,Developmental Pediatrician,Yes
+ASS-CH-499,CH-499,2025-10-01,Autism Diagnostic Assessment,SCQ,Module 3,9,1,10,moderate,DAS-II,24,37,17,Vineland-3,6,14,6,12,Conners-3,ASD (provisional),Level 2,Developmental Pediatrician,Yes
+ASS-CH-500,CH-500,2025-04-24,Autism Diagnostic Assessment,M-CHAT-R/F,Module 1,6,4,10,moderate,DAS-II,8,25,8,ABAS-3,7,8,13,22,Conners-3,ASD (provisional),Level 2,Developmental Pediatrician,Partial

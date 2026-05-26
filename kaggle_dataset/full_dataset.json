@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "dataset_name": "Synthetic Autism Intervention Planning Dataset",
+    "version": "3.0",
+    "created_date": "2026-05-19",
+    "authors": "Debashis Patra, Ambar Nath Saha",
+    "license": "CC BY 4.0",
+    "total_children": 500,
+    "total_assessments": 500,
+    "total_guidelines": 1311,
+    "total_goals": 1347,
+    "total_therapy_notes": 9398,
+    "total_milestones": 1347,
+    "total_caregiver_guidance": 500,
+    "total_progress_summaries": 1347,
+    "total_audit_records": 6000,
+    "description": "A comprehensive synthetic dataset for AI-driven personalized intervention planning for children with Autism Spectrum Disorder (ASD). Includes child profiles with screening assessment scores, intervention guidelines, SMART developmental goals, therapy session notes, milestones, caregiver guidance, progress summaries, and governance audit logs.",
+    "disclaimer": "This is entirely synthetic data generated for research purposes. It does not contain any real patient information. All names, scores, and clinical details are programmatically generated."
+  }
+}

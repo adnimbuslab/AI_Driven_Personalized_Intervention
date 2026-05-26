@@ -1,0 +1,71 @@
+{
+  "title": "Synthetic Autism Intervention Planning Dataset (500 Children)",
+  "subtitle": "AI-Driven Personalized Intervention Guidelines, SMART Goals, Therapy Notes & Milestones for ASD",
+  "description": "A comprehensive synthetic dataset of 500 children with Autism Spectrum Disorder (ASD) for developing AI-driven personalized intervention planning systems. Includes child profiles with ADOS-2/cognitive/adaptive assessment scores, evidence-based intervention guidelines, SMART developmental goals, 9,400+ therapy session notes, milestones, plain-language caregiver guidance, progress summaries, and governance audit logs. Designed by studying real clinical document types (autism assessments, speech-language reports, feeding evaluations, school reports, IEPs). 22,000+ total records across 9 interconnected tables. Created for the paper: AI-Driven Personalized Intervention Guideline Generator for Children with Autism Based on Screening Outcomes.",
+  "id": "debashis-patra/synthetic-autism-intervention-planning",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0"
+    }
+  ],
+  "keywords": [
+    "autism",
+    "autism spectrum disorder",
+    "ASD",
+    "intervention planning",
+    "SMART goals",
+    "developmental milestones",
+    "therapy notes",
+    "clinical decision support",
+    "agentic AI",
+    "personalized intervention",
+    "special education",
+    "IEP goals",
+    "speech language therapy",
+    "applied behavior analysis",
+    "early intervention",
+    "child development",
+    "healthcare AI",
+    "synthetic clinical data",
+    "caregiver guidance",
+    "ADOS-2"
+  ],
+  "resources": [
+    {
+      "path": "child_profiles.csv",
+      "description": "500 synthetic child profiles with demographics, ASD support levels, assessment scores, strengths/gaps, and family priorities"
+    },
+    {
+      "path": "screening_assessments.csv",
+      "description": "Standardized autism screening assessment results including ADOS-2, cognitive, and adaptive behavior scores"
+    },
+    {
+      "path": "intervention_guidelines.csv",
+      "description": "1,311 personalized evidence-based intervention recommendations across developmental domains"
+    },
+    {
+      "path": "smart_goals.csv",
+      "description": "1,347 SMART developmental goals with baselines, targets, measurement methods, and timelines"
+    },
+    {
+      "path": "therapy_notes.csv",
+      "description": "9,398 individual therapy session records with mood, engagement, interventions, behaviors, success rates, and narratives"
+    },
+    {
+      "path": "milestones.csv",
+      "description": "1,347 short-term and long-term developmental milestone plans aligned with SMART goals"
+    },
+    {
+      "path": "caregiver_guidance.csv",
+      "description": "500 plain-language home activity recommendation packages for parents and caregivers"
+    },
+    {
+      "path": "progress_summaries.csv",
+      "description": "1,347 per-goal progress analyses with trend detection (Improving, Slow Progress, Plateau, Regression)"
+    },
+    {
+      "path": "audit_log.csv",
+      "description": "6,000 governance and AI agent execution audit records with confidence scores and escalation flags"
+    }
+  ]
+}

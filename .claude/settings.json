@@ -1,0 +1,54 @@
+{
+  "permissions": {
+    "allow": [
+      "Read",
+      "Glob",
+      "Grep",
+      "PowerShell(docker-compose *)",
+      "PowerShell(docker *)",
+      "PowerShell(docker ps *)",
+      "PowerShell(docker logs *)",
+      "PowerShell(python -m pytest *)",
+      "PowerShell(python *)",
+      "PowerShell(npm run *)",
+      "PowerShell(npm install *)",
+      "PowerShell(pip install *)",
+      "PowerShell(curl *localhost*)",
+      "PowerShell(localstack *)"
+    ],
+    "deny": [
+      "PowerShell(rm -rf *)",
+      "PowerShell(Remove-Item -Recurse -Force /)",
+      "PowerShell(git push --force *)"
+    ]
+  },
+  "sandbox": {
+    "enabled": true,
+    "autoAllowBashIfSandboxed": true
+  },
+  "env": {
+    "LOCALSTACK_ENDPOINT": "http://localhost:4566",
+    "LOCALSTACK_HOSTNAME": "localhost",
+    "AWS_REGION": "us-east-1",
+    "AWS_DEFAULT_REGION": "us-east-1",
+    "AWS_ACCESS_KEY_ID": "test",
+    "AWS_SECRET_ACCESS_KEY": "test",
+
+    "LLM_MODEL_ID": "claude-opus-4-7",
+    "LLM_PROVIDER": "anthropic",
+
+    "S3_ENDPOINT_URL": "http://localhost:4566",
+    "S3_BUCKET_NAME": "autism-intervention-docs",
+    "DYNAMODB_ENDPOINT_URL": "http://localhost:4566",
+    "LAMBDA_ENDPOINT_URL": "http://localhost:4566",
+    "APIGATEWAY_ENDPOINT_URL": "http://localhost:4566",
+
+    "CONFIDENCE_THRESHOLD_INPUT": "0.3",
+    "CONFIDENCE_THRESHOLD_PROFILE": "0.5",
+    "CONFIDENCE_THRESHOLD_PREDICTION": "0.6",
+    "CONFIDENCE_THRESHOLD_GUIDELINE": "0.6",
+    "CONFIDENCE_THRESHOLD_BIAS": "0.7",
+    "DATA_QUALITY_THRESHOLD": "0.5",
+    "MAX_FOLLOWUP_ROUNDS": "3"
+  }
+}
