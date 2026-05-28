@@ -24,11 +24,6 @@ def route_data_quality(state: dict) -> str:
     status = state.get("data_quality_status")
     if status == "VALIDATED":
         return "profile_synthesis"
-    if status == "FOLLOW_UP":
-        round_num = state.get("follow_up_round", 0)
-        if round_num < Config.MAX_FOLLOWUP_ROUNDS:
-            return "data_quality"
-        return END
     return END
 
 

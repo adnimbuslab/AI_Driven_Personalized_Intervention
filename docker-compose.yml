@@ -25,8 +25,8 @@ services:
       - "8000:8000"
     environment:
       - LOCALSTACK_ENDPOINT=http://localstack:4566
-      - LLM_MODEL_ID=${LLM_MODEL_ID:-llama3.2:3b}
-      - LLM_PROVIDER=${LLM_PROVIDER:-ollama}
+      - LLM_MODEL_ID=${LLM_MODEL_ID:-claude-opus-4-7}
+      - LLM_PROVIDER=${LLM_PROVIDER:-anthropic}
       - OLLAMA_BASE_URL=${OLLAMA_BASE_URL:-http://host.docker.internal:11434}
       - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY:-}
       - PYTHONPATH=/app

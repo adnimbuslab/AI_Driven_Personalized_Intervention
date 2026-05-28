@@ -58,8 +58,8 @@ def handler(event, context):
             "plans": [{"plan_id": p.get("plan_id"), "status": p.get("status")} for p in plans],
         })
 
-    pending = dynamo.query_plans_by_status("pending_review")
-    return _response(200, {"cases": pending})
+    all_plans = dynamo.scan_all_plans()
+    return _response(200, {"cases": all_plans})
 
 
 def _response(status_code, body):

@@ -142,8 +142,8 @@ export default function DashboardPage() {
                 <td className="px-4 py-3 text-sm font-medium text-teal-600">{c.case_id || c.plan_id}</td>
                 <td className="px-4 py-3 text-sm text-gray-700">{c.child_id || '--'}</td>
                 <td className="px-4 py-3"><StatusBadge status={c.status} /></td>
-                <td className="px-4 py-3 text-sm text-gray-500">{c.domain_count || '--'}</td>
-                <td className="px-4 py-3 text-sm text-gray-500">{c.goal_count || '--'}</td>
+                <td className="px-4 py-3 text-sm text-gray-500">{c.domain_count || c.guidelines?.length || '--'}</td>
+                <td className="px-4 py-3 text-sm text-gray-500">{c.goal_count || c.smart_goals?.length || '--'}</td>
                 <td className="px-4 py-3 text-sm text-gray-400">{c.created_at?.split('T')[0] || '--'}</td>
               </tr>
             ))}

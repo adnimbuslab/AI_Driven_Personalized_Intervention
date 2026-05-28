@@ -154,3 +154,8 @@ class DynamoMCP(BaseMCP):
             ExpressionAttributeValues={":s": status},
         )
         return [_deserialize(item) for item in resp.get("Items", [])]
+
+    def scan_all_plans(self) -> list[dict]:
+        table = self._get_table(Config.TABLE_INTERVENTION_PLANS)
+        resp = table.scan()
+        return [_deserialize(item) for item in resp.get("Items", [])]

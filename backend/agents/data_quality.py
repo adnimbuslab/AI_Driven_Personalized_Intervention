@@ -26,20 +26,18 @@ class DataQualityAgent(BaseAgent):
 
     def process(self, state: dict) -> dict:
         inputs = state.get("structured_inputs") or {}
-        follow_up_round = state.get("follow_up_round", 0)
 
         present_required = sum(1 for f in REQUIRED_FIELDS if inputs.get(f) is not None)
         present_desired = sum(1 for f in DESIRED_FIELDS if inputs.get(f) is not None)
-        total = len(REQUIRED_FIELDS) + len(DESIRED_FIELDS)
-        present_total = present_required + present_desired
-        quality_score = present_total / total if total > 0 else 0
 
         missing_required = [f for f in REQUIRED_FIELDS if inputs.get(f) is None]
         missing_desired = [f for f in DESIRED_FIELDS if inputs.get(f) is None]
 
-        threshold = Config.DATA_COMPLETENESS_THRESHOLD
+        required_ratio = present_required / len(REQUIRED_FIELDS) if REQUIRED_FIELDS else 1.0
+        desired_ratio = present_desired / len(DESIRED_FIELDS) if DESIRED_FIELDS else 1.0
+        quality_score = (required_ratio * 0.7) + (desired_ratio * 0.3)
 
-        if quality_score >= threshold and not missing_required:
+        if not missing_required:
             return {
                 "data_quality_score": quality_score,
                 "data_quality_gaps": missing_desired,
@@ -49,29 +47,16 @@ class DataQualityAgent(BaseAgent):
                 "confidence_score": quality_score,
             }
 
-        if follow_up_round >= Config.MAX_FOLLOWUP_ROUNDS:
-            self.workflow.trigger_escalation(
-                case_id=state.get("case_id", ""),
-                agent_id=self.agent_id,
-                reason=f"Data incomplete after {follow_up_round} follow-up rounds. Missing required: {missing_required}",
-            )
-            return {
-                "data_quality_score": quality_score,
-                "data_quality_gaps": missing_required + missing_desired,
-                "data_quality_status": "INCOMPLETE",
-                "workflow_status": "ABSTAINED",
-                "current_step": self.agent_id,
-                "confidence_score": quality_score,
-            }
-
-        questions = self._generate_follow_up_questions(missing_required, missing_desired)
+        self.workflow.trigger_escalation(
+            case_id=state.get("case_id", ""),
+            agent_id=self.agent_id,
+            reason=f"Missing required fields: {missing_required}",
+        )
         return {
             "data_quality_score": quality_score,
             "data_quality_gaps": missing_required + missing_desired,
-            "data_quality_status": "FOLLOW_UP",
-            "follow_up_round": follow_up_round + 1,
-            "follow_up_questions": questions,
-            "workflow_status": "FOLLOW_UP",
+            "data_quality_status": "INCOMPLETE",
+            "workflow_status": "ABSTAINED",
             "current_step": self.agent_id,
             "confidence_score": quality_score,
         }
