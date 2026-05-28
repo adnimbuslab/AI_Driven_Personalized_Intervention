@@ -1,0 +1,73 @@
+digraph AutismInterventionWorkflow {
+  graph [
+    rankdir=TB,
+    bgcolor="white",
+    pad="0.35",
+    nodesep="0.42",
+    ranksep="0.55",
+    splines=ortho,
+    outputorder=edgesfirst
+  ];
+
+  node [
+    shape=box,
+    style="rounded,filled",
+    fontname="Helvetica",
+    fontsize=15,
+    margin="0.16,0.10",
+    color="#0f766e",
+    penwidth=1.8,
+    fillcolor="#f0fdfa",
+    fontcolor="#0f172a"
+  ];
+
+  edge [
+    color="#64748b",
+    penwidth=1.6,
+    arrowsize=0.8,
+    fontname="Helvetica",
+    fontsize=12,
+    fontcolor="#334155"
+  ];
+
+  title [
+    label="Autism Intervention Guideline Generator\nHuman-in-the-Loop Workflow",
+    shape=box,
+    style="rounded,filled",
+    fillcolor="#0f766e",
+    fontcolor="white",
+    color="#0f766e",
+    fontsize=22,
+    margin="0.22,0.16"
+  ];
+
+  dashboard [label="1. Dashboard\nIntervention Planning Dashboard"];
+  intake [label="2. New Child Assessment\nCreate case and child ID"];
+  consent [label="3. Informed Consent Gate\nParent/legal guardian consent verified", shape=diamond, fillcolor="#fff7ed", color="#f97316"];
+  stop [label="Stop\nNo data processing without consent", fillcolor="#fef2f2", color="#dc2626"];
+  form [label="4. Structured Intake\nChild info, ASD support level,\nADOS-2 scores, strengths, family context"];
+  workflow [label="5. Start 12-Agent Pipeline\nPOST /api/cases/{case_id}/workflow/start", fillcolor="#ecfeff", color="#0891b2"];
+  agents [label="6. Agent Orchestration\nConsent -> Input Aggregation -> Data Quality -> Profile\nPrediction -> Confidence -> Domain Analysis\nGuidelines -> Bias -> Goals -> Milestones -> Caregiver Guide"];
+  gates [label="7. Governance Gates\nData quality, confidence abstention,\nbias monitoring, audit logging", fillcolor="#fefce8", color="#ca8a04"];
+  abstain [label="Escalate / Abstain\nManual clinician handling", fillcolor="#fef2f2", color="#dc2626"];
+  draft [label="8. Draft Intervention Plan\nDomains, guidelines, SMART goals,\nmilestones, parent guidance"];
+  review [label="9. Clinician Review Dashboard\nReview plan, bias alerts, confidence,\nand audit trail", fillcolor="#eef2ff", color="#4f46e5"];
+  decision [label="10. Reviewer Decision\nApprove / Modify & Approve / Reject", shape=diamond, fillcolor="#eef2ff", color="#4f46e5"];
+  approved [label="Approved Plan\nEligible for family delivery", fillcolor="#f0fdf4", color="#16a34a"];
+  rejected [label="Rejected Plan\nNot delivered to family", fillcolor="#fef2f2", color="#dc2626"];
+
+  title -> dashboard;
+  dashboard -> intake;
+  intake -> consent;
+  consent -> stop [label="Denied"];
+  consent -> form [label="Granted"];
+  form -> workflow;
+  workflow -> agents;
+  agents -> gates;
+  gates -> abstain [label="Fails gate"];
+  gates -> draft [label="Passes gates"];
+  draft -> review;
+  review -> decision;
+  decision -> approved [label="Approve or modify"];
+  decision -> rejected [label="Reject"];
+}
