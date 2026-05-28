@@ -25,6 +25,10 @@ class LlmMCP:
                 self._client = None
         return self._client
 
+    def _is_ollama(self):
+        from backend.llm_factory import OllamaClient
+        return isinstance(self._get_client(), OllamaClient)
+
     def generate(
         self,
         system_prompt: str,
@@ -35,6 +39,21 @@ class LlmMCP:
         client = self._get_client()
         if client is None:
             return self._mock_generate(system_prompt, user_prompt)
+
+        if self._is_ollama():
+            for attempt in range(3):
+                try:
+                    return client.generate(
+                        model=Config.LLM_MODEL_ID,
+                        prompt=user_prompt,
+                        system=system_prompt,
+                        temperature=temperature,
+                        max_tokens=max_tokens,
+                    )
+                except Exception as e:
+                    if attempt == 2:
+                        return {"error": str(e), "content": ""}
+                    time.sleep(2 ** attempt)
 
         for attempt in range(3):
             try:
@@ -74,6 +93,33 @@ class LlmMCP:
             f"```json\n{json.dumps(output_schema, indent=2)}\n```\n"
             f"Respond ONLY with the JSON object, no other text."
         )
+
+        if self._is_ollama():
+            for attempt in range(3):
+                try:
+                    result = client.generate(
+                        model=Config.LLM_MODEL_ID,
+                        prompt=user_prompt,
+                        system=system_prompt + schema_instruction,
+                        temperature=temperature,
+                        max_tokens=max_tokens,
+                    )
+                    text = result.get("content", "").strip()
+                    if text.startswith("```"):
+                        text = text.split("\n", 1)[1].rsplit("```", 1)[0].strip()
+                    start = text.find("{")
+                    end = text.rfind("}") + 1
+                    if start >= 0 and end > start:
+                        text = text[start:end]
+                    return json.loads(text)
+                except json.JSONDecodeError:
+                    if attempt == 2:
+                        return self._mock_structured(output_schema)
+                    continue
+                except Exception as e:
+                    if attempt == 2:
+                        return self._mock_structured(output_schema)
+                    time.sleep(2 ** attempt)
 
         for attempt in range(3):
             try:

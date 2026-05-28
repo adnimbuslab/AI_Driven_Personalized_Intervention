@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route, Link, useLocation } from 'react-router-dom'
-import { MessageSquare, ClipboardCheck, LayoutDashboard } from 'lucide-react'
+import { FileText, ClipboardCheck, LayoutDashboard } from 'lucide-react'
 import IntakePage from './pages/IntakePage'
 import ReviewPage from './pages/ReviewPage'
 import DashboardPage from './pages/DashboardPage'
@@ -11,7 +11,7 @@ function NavLink({ to, icon: Icon, children }) {
     <Link
       to={to}
       className={`flex items-center gap-2 px-4 py-2 rounded-lg transition-colors ${
-        active ? 'bg-indigo-100 text-indigo-700' : 'text-gray-600 hover:bg-gray-100'
+        active ? 'bg-teal-100 text-teal-700' : 'text-gray-600 hover:bg-gray-100'
       }`}
     >
       <Icon size={18} />
@@ -22,19 +22,22 @@ function NavLink({ to, icon: Icon, children }) {
 
 function Layout({ children }) {
   return (
-    <div className="min-h-screen flex flex-col">
-      <header className="bg-white border-b border-gray-200 px-6 py-3">
+    <div className="min-h-screen flex flex-col bg-gray-50">
+      <header className="bg-white border-b border-gray-200 px-6 py-3 shadow-sm">
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <div className="w-8 h-8 bg-indigo-600 rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-sm">AI</span>
+            <div className="w-9 h-9 bg-teal-600 rounded-lg flex items-center justify-center">
+              <span className="text-white font-bold text-sm">AIG</span>
             </div>
-            <h1 className="text-lg font-semibold text-gray-900">Intervention Guideline Generator</h1>
+            <div>
+              <h1 className="text-lg font-semibold text-gray-900 leading-tight">Autism Intervention Guideline Generator</h1>
+              <p className="text-xs text-gray-400">AI-Driven Personalized Intervention Planning</p>
+            </div>
           </div>
           <nav className="flex items-center gap-2">
             <NavLink to="/" icon={LayoutDashboard}>Dashboard</NavLink>
-            <NavLink to="/intake" icon={MessageSquare}>Intake</NavLink>
-            <NavLink to="/review" icon={ClipboardCheck}>Review</NavLink>
+            <NavLink to="/intake" icon={FileText}>New Child</NavLink>
+            <NavLink to="/review" icon={ClipboardCheck}>Clinician Review</NavLink>
           </nav>
         </div>
       </header>

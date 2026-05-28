@@ -11,7 +11,7 @@ export default function WorkflowProgress({ steps, currentStep }) {
             <div key={i} className="flex items-center">
               <div className={`flex items-center gap-1.5 px-2 py-1 rounded-full text-xs font-medium ${
                 completed ? 'bg-green-100 text-green-700' :
-                active ? 'bg-indigo-100 text-indigo-700' :
+                active ? 'bg-teal-100 text-teal-700' :
                 'bg-gray-100 text-gray-400'
               }`}>
                 {completed ? <CheckCircle size={12} /> :

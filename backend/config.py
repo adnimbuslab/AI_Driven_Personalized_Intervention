@@ -5,6 +5,7 @@ class Config:
     LLM_MODEL_ID = os.environ.get("LLM_MODEL_ID", "claude-opus-4-7")
     LLM_PROVIDER = os.environ.get("LLM_PROVIDER", "anthropic")
     ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
+    OLLAMA_BASE_URL = os.environ.get("OLLAMA_BASE_URL", "http://host.docker.internal:11434")
 
     CONFIDENCE_THRESHOLD_DEFAULT = float(os.environ.get("CONFIDENCE_THRESHOLD_DEFAULT", "0.70"))
     CONFIDENCE_THRESHOLD_PREDICTION = float(os.environ.get("CONFIDENCE_THRESHOLD_PREDICTION", "0.75"))
